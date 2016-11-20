@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="286" viewBox="0 0 820 286" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#fff">
+  <defs>
+    <polygon id="a" points="0 0 180 0 180 200 0 200"/>
+    <mask id="e" width="180" height="200" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <polygon id="b" points="0 0 180 0 180 200 0 200"/>
+    <mask id="f" width="180" height="200" x="0" y="0" fill="white">
+      <use xlink:href="#b"/>
+    </mask>
+    <polygon id="c" points="0 0 180 0 180 200 0 200"/>
+    <mask id="g" width="180" height="200" x="0" y="0" fill="white">
+      <use xlink:href="#c"/>
+    </mask>
+    <polygon id="d" points="0 0 180 0 180 130 0 130"/>
+    <mask id="h" width="180" height="130" x="0" y="0" fill="white">
+      <use xlink:href="#d"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(65 33)">
+      <use stroke="#DEDEDE" stroke-width="2" mask="url(#e)" xlink:href="#a"/>
+      <polygon fill="#513961" points="0 0 180 0 180 130 0 130"/>
+      <text fill="#444444" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="15" font-weight="bold">
+        <tspan x="8" y="152">Actionable</tspan>
+      </text>
+      <text fill="#777777" font-family="HelveticaNeue, Helvetica Neue" font-size="13">
+        <tspan x="8" y="171">#593961</tspan>
+      </text>
+      <text fill="#777777" font-family="HelveticaNeue, Helvetica Neue" font-size="12">
+        <tspan x="8" y="190">rgba(81, 57, 97, 1)</tspan>
+      </text>
+    </g>
+    <g transform="translate(320 33)">
+      <use stroke="#DEDEDE" stroke-width="2" mask="url(#f)" xlink:href="#b"/>
+      <polygon fill="#36223B" points="0 0 180 0 180 130 0 130"/>
+      <text fill="#444444" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="15" font-weight="bold">
+        <tspan x="8" y="152">Header</tspan>
+      </text>
+      <text fill="#777777" font-family="HelveticaNeue, Helvetica Neue" font-size="13">
+        <tspan x="8" y="171">#9B9B9B</tspan>
+      </text>
+      <text fill="#777777" font-family="HelveticaNeue, Helvetica Neue" font-size="12">
+        <tspan x="8" y="190">rgba(54, 34, 59, 1)</tspan>
+      </text>
+    </g>
+    <g transform="translate(575 33)">
+      <use stroke="#DEDEDE" stroke-width="2" mask="url(#g)" xlink:href="#c"/>
+      <use fill="#FFFFFF" fill-opacity=".6" stroke="#DEDEDE" stroke-width="2" mask="url(#h)" xlink:href="#d"/>
+      <text fill="#444444" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="15" font-weight="bold">
+        <tspan x="8" y="152">Not in focus</tspan>
+      </text>
+      <text fill="#777777" font-family="HelveticaNeue, Helvetica Neue" font-size="13">
+        <tspan x="8" y="171">#FFFFFF</tspan>
+      </text>
+      <text fill="#777777" font-family="HelveticaNeue, Helvetica Neue" font-size="12">
+        <tspan x="8" y="190">rgba(255, 255, 255, .60)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

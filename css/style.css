@@ -1,0 +1,323 @@
+
+/* GLOBAL STYLES */
+body {
+  overflow-x:hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.theme-color {
+  background-color: #6173F4;
+}
+
+.link-color {
+  color: #6173F4 !important;
+}
+
+#logo-container {
+	top:18%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav {
+	background-color: #ffffff;
+	color: #000000;
+	box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+}
+
+nav ul li a {
+	color: #000;
+}
+
+.spacer {
+  height:100px;
+  width: 100%;
+}
+
+.small-spacer {
+  height:60px;
+  width: 100%;
+}
+
+.x-small-spacer {
+  height:30px;
+  width: 100%;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+h5  {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.underline {
+  border: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #6173F4;
+  width: 40px;
+}
+
+.social-icons li {
+  display: inline;
+  padding: 5px;
+}
+
+.social-icons li a {
+  color: #fff;
+}
+
+.gray-filter {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  -webkit-transition: 0.2s -webkit-filter linear;
+  -moz-transition: 0.2s -moz-filter linear;
+  -moz-transition: 0.2s filter linear;
+  -ms-transition: 0.2s -ms-filter linear;
+  -o-transition: 0.2s -o-filter linear;
+  transition: 0.2s filter linear;
+}
+
+.gray-filter:hover {
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
+}
+
+.sm-text {
+  font-size: 14px;
+}
+
+.large-text {
+  font-size: 16px;
+}
+
+.x-large-text {
+  font-size: 18px;
+}
+
+.xx-large-text {
+  font-size: 20px;
+}
+
+.tabs .tab a {
+  color:#6173F4;
+}
+
+.tabs .tab a:hover {
+  color:#6173F4;
+}
+
+.tabs .indicator {
+  background-color:#6173F4;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width : 768px) {
+    h1 {
+      font-size: 24px;
+      font-weight: 500;
+    }
+    
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+
+    .gray-filter {
+      -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(0%);
+    }
+
+    .hero-home {
+      height: 25vh!important;
+      display: flex;
+      justify-content:space-around;
+      align-items:center;
+    }
+
+    .sm-text {
+      font-size: 12px;
+    }
+
+    .large-text {
+      font-size: 14px;
+    }
+
+    .x-large-text {
+      font-size: 16px;
+    }
+
+    .xx-large-text {
+      font-size: 18px;
+    }
+
+    .spacer {
+      height:50px;
+      width: 100%;
+    }
+
+    .small-spacer {
+      height:40px;
+      width: 100%;
+    }
+
+    .x-small-spacer {
+      height:10px;
+      width: 100%;
+    }
+
+    /*Project page media queries*/
+    .project-header {
+    height:30vh !important;
+    background: url('../img/ticketpass-hero.png') no-repeat center;
+    background-size: 100%;
+  }
+
+  /* ABOUT-PAGE STYLES */
+  .about-header {
+    height: 30vh !important;
+  }
+
+  .about {
+    max-width: 70%;
+    margin-top: 45vh;
+  }
+}
+
+@media only screen and (max-width : 480px){
+
+  /*Project page media queries*/
+  div.m4 img {
+    padding:15%;
+  }
+
+  div.m5 p, div.m5 h5 {
+    text-align: center;
+  }
+}
+
+
+/* HOME-PAGE STYLES */
+.uxd span {
+  display: inline-block;
+  margin-right: -2px;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-home {
+  height: 90vh;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+#home-pic-container{ 
+  position: relative;
+}
+
+#pic-animation {
+  position: absolute;
+  top:33%;
+  right: 28%;
+}
+
+#iphone-svg {
+  height: 675px;
+}
+
+div.screen-content {
+  position: absolute;
+  border: solid 2px #fff;
+  width: 290px;
+  height: 508px;
+  top: 13%;
+  left: 6.55%;
+}
+
+/*Hiding these elements of the JQuery bot*/
+.jsm-bot-info, .jsm-status-navbar {
+  display:none;
+}
+
+.project {
+  display: flex;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.collapsible {
+  border: none;
+  box-shadow: none;
+  margin: none;
+}
+
+.collapsible-body, .collapsible-header {
+  border-bottom: none;
+}
+
+.card {
+  box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+  transition: all 0.2s ease;
+}
+
+.card:hover{
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,.19), 0 6px 3px 0 rgba(0,0,0,.23);
+}
+
+
+/* WORK-PAGE STYLES */
+.work-header {
+  max-width: 100%;
+}
+
+.work-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* PROJECT-PAGE STYLES */
+.project-header {
+  height: 95vh;
+  background: url('../img/ticketpass-hero.png') no-repeat center;
+  background-size: 100%;
+}
+
+.work-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carousel-next {
+  position: absolute;
+  bottom: 3%;
+  right:3%;
+}
+
+/* ABOUT-PAGE STYLES */
+.about-header {
+  height: 100vh;
+  background: url('../img/about-bg.png') no-repeat center;
+  background-size: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.about {
+  position: absolute;
+  right: 15%;
+}

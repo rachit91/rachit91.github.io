@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <link rel="icon" href="img/logo.png">
+  <title>UX and Interaction design portfolio of Rachit Gupta</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <style type="text/css">
+    /*404 page style*/
+    .four-o-four {
+      margin-top: 60px;
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
+    }
+
+    h1 {
+      font-family: "Roboto", sans-serif;
+      font-size: 200px;
+      font-weight: 600;
+      margin-top: 0px;
+      margin-right: 15px;
+      margin-left: 15px;
+      color: #4A4A4A;
+    }
+
+    .emoji {
+      border-radius: 50%;
+      position: relative;
+      width: 200px;
+      height: 200px;
+      background-color: #FFDC61;
+    }
+
+    .emoji1:after, .emoji1:before {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 45px;
+      width: 30px;
+      background-color: #272232;
+      border-radius: 50%;
+      top: 50px;
+      -webkit-animation: emoji1-face-move 3s ease-in-out infinite, emoji1-eyes-blink 1s ease-in-out infinite;
+      animation: emoji1-face-move 3s ease-in-out infinite, emoji1-eyes-blink 1s ease-in-out infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+    .emoji1:after {
+      left: 45px;
+    }
+    .emoji1:before {
+      left: 125px;
+    }
+    .emoji1 .mouth {
+      position: absolute;
+      height: 70px;
+      width: 50px;
+      background-color: #272232;
+      border-radius: 50%;
+      top: 115px;
+      left: 75px;
+      -webkit-animation: emoji1-face-move 3s ease-in-out infinite;
+      animation: emoji1-face-move 3s ease-in-out infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+
+    .vertical {
+      width: 0px;
+      height: 80px;
+      border: 2px dashed #272232;
+    }
+
+    @-webkit-keyframes emoji1-eyes-blink {
+      0% {
+        height: 45px;
+      }
+      97% {
+        height: 45px;
+      }
+      100% {
+        height: 0px;
+      }
+    }
+
+    @keyframes emoji1-eyes-blink {
+      0% {
+        height: 45px;
+      }
+      97% {
+        height: 45px;
+      }
+      100% {
+        height: 0px;
+      }
+    }
+    @-webkit-keyframes emoji1-face-move {
+      0% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+      30% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+      35% {
+        -webkit-transform: translateX(-20px);
+                transform: translateX(-20px);
+      }
+      65% {
+        -webkit-transform: translateX(-20px);
+                transform: translateX(-20px);
+      }
+      70% {
+        -webkit-transform: translateX(20px);
+                transform: translateX(20px);
+      }
+      85% {
+        -webkit-transform: translateX(20px);
+                transform: translateX(20px);
+      }
+      90% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+      100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+    }
+    @keyframes emoji1-face-move {
+      0% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+      30% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+      35% {
+        -webkit-transform: translateX(-20px);
+                transform: translateX(-20px);
+      }
+      65% {
+        -webkit-transform: translateX(-20px);
+                transform: translateX(-20px);
+      }
+      70% {
+        -webkit-transform: translateX(20px);
+                transform: translateX(20px);
+      }
+      85% {
+        -webkit-transform: translateX(20px);
+                transform: translateX(20px);
+      }
+      90% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+      100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+    }
+
+    /*MEDIA QUERIES*/
+    @media only screen and (max-width : 768px) {
+        h1{
+          font-size: 120px;
+          margin: 0px;
+        }
+    }
+    </style>
+
+    <!-- Start of Async Drift Code -->
+    <script>
+    // !function() {
+    //   var t;
+    //   if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+    //   t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    //   t.factory = function(e) {
+    //     return function() {
+    //       var n;
+    //       return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    //     };
+    //   }, t.methods.forEach(function(e) {
+    //     t[e] = t.factory(e);
+    //   }), t.load = function(t) {
+    //     var e, n, o, i;
+    //     e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    //     o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    //     n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+    //   });
+    // }();
+    // drift.SNIPPET_VERSION = '0.3.1';
+    // drift.load('5h33ww5zgaxy');
+    </script>
+    <!-- End of Async Drift Code -->
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav class="lighten-1" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.svg"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="https://medium.com/@rachitgupta" target="_blank">Thoughts</a></li>
+          <li><a href="resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="https://medium.com/@rachitgupta" target="_blank">Thoughts</a></li>
+          <li><a href="resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons" style="color:#424242;">menu</i></a>
+      </div>
+    </nav>
+  </div><br>
+
+  <div class="container center-align">
+    <div class="four-o-four center-align">
+
+      <h1>4</h1>
+      <h1 class="hide-on-large-only">0</h1>
+
+      <div class="emoji emoji1 hide-on-med-and-down">
+        <div class="mouth"></div>
+      </div>
+
+      <h1>4</h1>
+    </div>
+
+    <!-- spacer -->
+    <div class="x-small-spacer"></div>
+
+    <p class="x-large-text center-align">The page you were looking for was moved or doesn't exist.</p>
+
+    <hr class="vertical">
+
+    <p class="x-large-text center-align">Let's get you back.</p>
+
+    <hr class="vertical" style="height: 40px;"><br>
+
+    <a class="waves-effect waves-light btn theme-color center-align" href="index.html">Back to home</a>
+    
+  </div>
+
+  <!-- spacer -->
+  <div class="spacer"></div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

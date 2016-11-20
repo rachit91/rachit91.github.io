@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="37.190899%" y1="0%" x2="97.1564571%" y2="96.6783584%" id="linearGradient-1">
+            <stop stop-color="#0D0D0D" stop-opacity="0.340551404" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M6.37906929,11.2183129 C11.9575569,8.39413564 18.5506676,10.1812342 21.1176184,15.2191588 C23.6845692,20.2570833 21.255029,26.6414521 15.6912689,29.4945337 L6.37906789,11.2183101 L6.37906929,11.2183129 Z" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.7617067" height="19.6154533" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <path d="M6.37907183,18.6145287 C6.39975352,25.6638485 12.2466195,31.3721717 19.4561128,31.3721717 C26.6656061,31.3721717 32.512472,25.6638485 32.5331537,18.6145287 L6.37906789,18.6145287 L6.37907183,18.6145287 Z" id="path-4"></path>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26.1540858" height="12.757643" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(1.000000, 1.000000)">
+            <rect id="Rectangle-1" stroke="#4A4A4A" fill="#FFFFFF" x="0" y="0" width="38.6491557" height="38.6491557" rx="2"></rect>
+            <polygon id="shadow" fill="url(#linearGradient-1)" points="12.9109551 18.6108027 24.0587152 20.3657408 27.5477003 7.38566921 38.8456098 17.0156763 38.8456098 38.7080411 17.5658607 38.7080411 7.8076212 24.3162891"></polygon>
+            <use id="Oval-1-Copy-3" stroke="#4A4A4A" mask="url(#mask-3)" stroke-width="3" fill="#FFFFFF" xlink:href="#path-2"></use>
+            <path d="M27.5941694,7.687497 L23.5531823,23.0656984" id="Line" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M32.483517,13.3539287 L24.900178,22.167701" id="Line-Copy" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="square"></path>
+            <use id="Oval-1-Copy-2" stroke="#4A4A4A" mask="url(#mask-5)" stroke-width="3" fill="#FFFFFF" xlink:href="#path-4"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="456" viewBox="0 0 1220 456" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="b" width="283" height="446" x="1" rx="10.08"/>
+    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.448979592 0 0 0 0 0.448979592 0 0 0 0 0.448979592 0 0 0 0.5 0" in="shadowBlurOuter1"/>
+    </filter>
+    <rect id="d" width="283" height="446" x="310" rx="10.08"/>
+    <filter id="c" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.448979592 0 0 0 0 0.448979592 0 0 0 0 0.448979592 0 0 0 0.5 0" in="shadowBlurOuter1"/>
+    </filter>
+    <rect id="f" width="283" height="446" x="619" rx="10.08"/>
+    <filter id="e" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.448979592 0 0 0 0 0.448979592 0 0 0 0 0.448979592 0 0 0 0.5 0" in="shadowBlurOuter1"/>
+    </filter>
+    <rect id="h" width="283" height="446" x="928" rx="10.08"/>
+    <filter id="g" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.448979592 0 0 0 0 0.448979592 0 0 0 0 0.448979592 0 0 0 0.5 0" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(4 4)">
+    <use fill="black" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#FFFFFF" xlink:href="#b"/>
+    <rect width="283" height="181" y="265" fill="#593961"/>
+    <path stroke="#593961" stroke-width="17.64" d="M175.938328,222.414579 C123.671158,241.4705 65.8784941,214.475685 46.8548001,162.119973 C27.8311061,109.764261 54.7802678,51.8736946 107.047438,32.8177738 C159.314607,13.7618531 217.107271,40.7566676 236.130965,93.1123797 C255.154659,145.468092 228.205497,203.358658 175.938328,222.414579 Z" stroke-linecap="round" stroke-dasharray="409.7 272.16"/>
+    <text fill="#4A4A4A" font-family="Roboto-Medium, Roboto" font-size="60.48" font-weight="400">
+      <tspan x="85.248" y="148">70%</tspan>
+    </text>
+    <text fill="#FFFFFF" font-family="Roboto-Regular, Roboto" font-size="20">
+      <tspan x="28.5" y="335.5">voted for full-size images </tspan> <tspan x="28.5" y="359.5">as more informational</tspan>
+    </text>
+    <use fill="black" filter="url(#c)" xlink:href="#d"/>
+    <use fill="#FFFFFF" xlink:href="#d"/>
+    <path stroke="#593961" stroke-width="17.64" d="M484.938328,222.414579 C432.671158,241.4705 374.878494,214.475685 355.8548,162.119973 C336.831106,109.764261 363.780268,51.8736946 416.047438,32.8177738 C468.314607,13.7618531 526.107271,40.7566676 545.130965,93.1123797 C564.154659,145.468092 537.205497,203.358658 484.938328,222.414579 Z" stroke-linecap="round" stroke-dasharray="529.704 272.16"/>
+    <text fill="#4A4A4A" font-family="Roboto-Medium, Roboto" font-size="60.48" font-weight="400">
+      <tspan x="393.911" y="148.307">95%</tspan>
+    </text>
+    <use fill="black" filter="url(#e)" xlink:href="#f"/>
+    <use fill="#FFFFFF" xlink:href="#f"/>
+    <path stroke="#593961" stroke-width="17.64" d="M793.938328,222.414579 C741.671158,241.4705 683.878494,214.475685 664.8548,162.119973 C645.831106,109.764261 672.780268,51.8736946 725.047438,32.8177738 C777.314607,13.7618531 835.107271,40.7566676 854.130965,93.1123797 C873.154659,145.468092 846.205497,203.358658 793.938328,222.414579 Z" stroke-linecap="round" stroke-dasharray="357.7 272.16"/>
+    <text fill="#4A4A4A" font-family="Roboto-Medium, Roboto" font-size="60.48" font-weight="400">
+      <tspan x="702.911" y="148.307">51%</tspan>
+    </text>
+    <use fill="black" filter="url(#g)" xlink:href="#h"/>
+    <use fill="#FFFFFF" xlink:href="#h"/>
+    <path stroke="#593961" stroke-width="17.64" d="M1102.93833,222.414579 C1050.67116,241.4705 992.878494,214.475685 973.8548,162.119973 C954.831106,109.764261 981.780268,51.8736946 1034.04744,32.8177738 C1086.31461,13.7618531 1144.10727,40.7566676 1163.13097,93.1123797 C1182.15466,145.468092 1155.2055,203.358658 1102.93833,222.414579 Z" stroke-linecap="round" stroke-dasharray="141 472.16"/>
+    <text fill="#4A4A4A" font-family="Roboto-Medium, Roboto" font-size="60.48" font-weight="400">
+      <tspan x="1011.911" y="148.307">10%</tspan>
+    </text>
+    <rect width="283" height="181" x="308" y="265" fill="#593961"/>
+    <text fill="#FFFFFF" font-family="Roboto-Regular, Roboto" font-size="20">
+      <tspan x="336.5" y="335.5">hinted towards a social </tspan> <tspan x="336.5" y="359.5">sharing platform for </tspan> <tspan x="336.5" y="383.5">concerts</tspan>
+    </text>
+    <rect width="283" height="181" x="619" y="265" fill="#593961"/>
+    <text fill="#FFFFFF" font-family="Roboto-Regular, Roboto" font-size="20">
+      <tspan x="647.5" y="335.5">wanted to view previous </tspan> <tspan x="647.5" y="359.5">concerts from an artist </tspan> <tspan x="647.5" y="383.5">they didn’t know before </tspan> <tspan x="647.5" y="407.5">buying new tickets</tspan>
+    </text>
+    <rect width="283" height="181" x="927" y="265" fill="#593961"/>
+    <text fill="#FFFFFF" font-family="Roboto-Regular, Roboto" font-size="20">
+      <tspan x="955.5" y="335.5">said they would be willing </tspan> <tspan x="955.5" y="359.5">to save their payment </tspan> <tspan x="955.5" y="383.5">information with </tspan> <tspan x="955.5" y="407.5">Ticketpass</tspan>
+    </text>
+  </g>
+</svg>
