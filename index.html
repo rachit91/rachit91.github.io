@@ -17,8 +17,8 @@
   <script src="js/analytics.js"></script>
 </head>
 <body id="#body">
-    <div class="navbar-fixed">
-      <nav class="lighten-1" role="navigation">
+    <div class="navbar-fixed ">
+      <nav class="lighten-1 display-none" role="navigation" id="top-nav">
         <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.svg"></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="about.html" target="_blank">About</a></li>
@@ -61,6 +61,7 @@
 
 
   <!-- spacer -->
+  <div class="spacer"></div>
   <div class="spacer"></div>
 
   <div class="container">
@@ -325,5 +326,22 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="js/bot.js"></script>
+
+  <script type="text/javascript">
+  //Script for hiding the top nav and exposing on scroll
+    (function($) {          
+        $(document).ready(function(){                    
+            $(window).scroll(function(){                          
+                if ($(this).scrollTop() > 100) {
+                    //$('#top-nav').fadeIn(500);
+                    $('#top-nav').removeClass("display-none");
+                } else {
+                    //$('#top-nav').fadeOut(500);
+                    $('#top-nav').addClass("display-none");
+                }
+            });
+        });
+    })(jQuery);
+  </script>
   </body>
 </html>

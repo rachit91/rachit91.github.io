@@ -209,16 +209,18 @@ h5  {
 
 
 /* HOME-PAGE STYLES */
-.uxd span {
-  display: inline-block;
-  margin-right: -2px;
-  font-size: 32px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
+#top-nav {
+  -webkit-transition: -webkit-transform 1s; /* Safari */
+  transition: transform 1s;
+}
+
+.display-none {
+  transform: translateY(-200px);
+  -webkit-transform: translateY(-200px);
 }
 
 .hero-home {
-  height: 90vh;
+  height: 85vh;
   display: flex;
   justify-content:space-around;
   align-items:center;
@@ -230,7 +232,7 @@ h5  {
 
 #pic-animation {
   position: absolute;
-  top:33%;
+  top:32%;
   right: 28%;
 }
 
