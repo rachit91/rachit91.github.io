@@ -130,6 +130,11 @@ h5  {
       font-weight: 500;
     }
 
+    h4 {
+      font-size: 19px;
+      font-weight: 500;
+    }
+
     h5 {
       font-size: 16px;
     }
@@ -139,11 +144,12 @@ h5  {
       filter: grayscale(0%);
     }
 
-    .hero-home {
-      height: 25vh!important;
-      display: flex;
-      justify-content:space-around;
-      align-items:center;
+    .bg {
+      height: 45vh!important;
+    }
+
+    .hide-on-small-and-down {
+      display: none !important;
     }
 
     .sm-text {
@@ -219,8 +225,12 @@ h5  {
   -webkit-transform: translateY(-200px);
 }
 
+.bg {
+  height: 100vh;
+  background-color: #FAFAFA;
+}
+
 .hero-home {
-  height: 85vh;
   display: flex;
   justify-content:space-around;
   align-items:center;
@@ -230,10 +240,8 @@ h5  {
   position: relative;
 }
 
-#pic-animation {
-  position: absolute;
-  top:32%;
-  right: 28%;
+#specs {
+  display: inline;
 }
 
 #iphone-svg {
@@ -242,11 +250,10 @@ h5  {
 
 div.screen-content {
   position: absolute;
-  border: solid 2px #fff;
-  width: 290px;
+  width: 285px;
   height: 508px;
-  top: 13%;
-  left: 6.55%;
+  top: 12.3%;
+  left: 7%;
 }
 
 /*Hiding these elements of the JQuery bot*/

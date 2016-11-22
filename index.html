@@ -12,12 +12,14 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.5.1/csshake-default.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="css/jquery.fbmessenger.css">
   <script src="js/drift.js"></script>
   <script src="js/analytics.js"></script>
 </head>
-<body id="#body">
-    <div class="navbar-fixed ">
+<body>
+  <div class="bg">
+    <div class="navbar-fixed">
       <nav class="lighten-1 display-none" role="navigation" id="top-nav">
         <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.svg"></a>
           <ul class="right hide-on-med-and-down">
@@ -35,38 +37,34 @@
         </div>
       </nav>
     </div><br>
+  
+    <div class="container">
+      <!-- Page title-->
+      <div class="hero-home">
+        <div id="home-pic-container" class="hide-on-small-and-down">
+          <img src="img/iphone-test.svg" id="iphone-svg" >
+          <div class="screen-content"></div>
+        </div>
 
-  <div class="container">
-    <!-- Page title-->
-    <div class="hero-home">
-      <div id="home-pic-container" class="hide-on-med-and-down">
-        <img src="img/iphone.svg" id="iphone-svg" >
-        <div class="screen-content"></div>
+        <div class="intro">
+          <a href="#scroll-specs"><svg id="specs" class="shake" width="61px" height="24px" viewBox="48 60 61 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+              <path d="M53.0108155,69.3830188 C53.0108155,65.8646911 54.566724,65.1520473 62.2790241,65.1520473 C69.9857207,65.1520473 71.5491006,65.8646911 71.5491006,69.3830188 C71.5491006,74.498716 67.3912948,78.662351 62.2790241,78.662351 C57.1686213,78.662351 53.0108155,74.498716 53.0108155,69.3830188 L53.0108155,69.3830188 Z M94.5757986,65.1520473 C102.280627,65.1520473 103.844007,65.8646911 103.844007,69.3830188 C103.844007,74.498716 99.6862014,78.662351 94.5757986,78.662351 C89.4672636,78.662351 85.3057221,74.498716 85.3057221,69.3830188 C85.3057221,65.8646911 86.8634984,65.1520473 94.5757986,65.1520473 L94.5757986,65.1520473 Z M76.1047557,71.012186 L80.7481992,71.012186 C81.5289551,78.0076914 87.431321,83.3478433 94.5757986,83.3478433 C102.248874,83.3478433 108.487451,77.1285771 108.487451,69.4484848 C108.487451,60.5638188 100.446411,60.597487 94.5757986,60.597487 C89.4840741,60.597487 82.7635956,60.3094368 81.0638637,66.4819416 L75.7853555,66.4819416 C74.0874914,60.3094368 67.3707485,60.597487 62.2790241,60.597487 C56.4046759,60.597487 48.3636364,60.5488551 48.3636364,69.4316507 C48.3636364,77.1154839 54.6078164,83.3702888 62.2790241,83.3702888 C69.4235017,83.3702888 75.3239997,78.0076914 76.1047557,71.012186 L76.1047557,71.012186 Z" id="specs" stroke="none" fill="#3B3B3D" fill-rule="evenodd"></path>
+          </svg></a>
+          <h4>Rachit Gupta</h4>
+          <h5 style="font-weight:400;">UX Designer</h5>
+        </div>
       </div>
-
-      <div class="intro">
-        <svg id="pic-animation" class="hide-on-med-and-down" width="80px" height="127px" viewBox="419 596 157 207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Group-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(419.000000, 597.000000)">
-                <path d="M78.5691364,154.647593 C76.1529091,154.647593 74.1958182,152.690791 74.1958182,150.278879 C74.1958182,147.866966 76.1529091,145.908393 78.5691364,145.908393 C80.9835909,145.908393 82.9424545,147.866966 82.9424545,150.278879 C82.9424545,152.690791 80.9835909,154.647593 78.5691364,154.647593 L78.5691364,154.647593 Z M78.5691364,175.78105 C76.1529091,175.78105 74.1958182,173.826019 74.1958182,171.412335 C74.1958182,169.000422 76.1529091,167.045392 78.5691364,167.045392 C80.9835909,167.045392 82.9424545,169.000422 82.9424545,171.412335 C82.9424545,173.826019 80.9835909,175.78105 78.5691364,175.78105 L78.5691364,175.78105 Z M78.5691364,196.918048 C76.1529091,196.918048 74.1958182,194.959476 74.1958182,192.549334 C74.1958182,190.13565 76.1529091,188.180619 78.5691364,188.180619 C80.9835909,188.180619 82.9424545,190.13565 82.9424545,192.549334 C82.9424545,194.959476 80.9835909,196.918048 78.5691364,196.918048 L78.5691364,196.918048 Z M119.769091,119.611106 L114.656545,118.329002 L114.670727,118.346711 L103.302227,141.908018 C102.685318,143.193663 101.424909,144.05076 100.003182,144.158783 C98.5796818,144.265034 97.2058182,143.608045 96.401,142.430422 L87.2838636,129.117088 C86.7981364,128.408744 86.0181364,127.953632 85.1601364,127.881027 C84.3003636,127.810193 83.4565455,128.128948 82.8591364,128.745207 L80.6308182,131.050869 C80.0919091,131.610461 79.3473636,131.927445 78.5709091,131.927445 C77.7944545,131.927445 77.0481364,131.610461 76.511,131.052639 L74.2791364,128.745207 C73.6817273,128.125406 72.8379091,127.810193 71.9781364,127.881027 C71.1201364,127.953632 70.3419091,128.408744 69.8544091,129.117088 L60.7390455,142.430422 C59.9324545,143.608045 58.5585909,144.265034 57.1350909,144.158783 C55.7133636,144.05076 54.4547273,143.193663 53.8360455,141.908018 L42.4675455,118.346711 L42.4835,118.329002 L37.2965,119.611106 C15.983,124.941398 0.968,144.07201 0.968,166.018292 L0.968,194.835515 C0.968,200.512896 5.70472727,205.113593 11.3863182,205.113593 L145.753727,205.113593 C151.431773,205.113593 156.030227,200.512896 156.030227,194.835515 L156.030227,166.018292 C156.030227,144.07201 141.084364,124.941398 119.769091,119.611106 L119.769091,119.611106 Z" id="Fill-33" stroke="#3B3B3D"></path>
-                <path id="face" d="M39.9112727,54.1618494 C69.8384545,54.0237222 87.9060909,41.5639434 97.9929091,30.6766892 C108.561909,41.2009169 113.837545,54.6151899 116.418636,64.1742982 C114.397727,86.9953855 98.1223182,112.251407 78.2181364,112.251407 C56.9400909,112.251407 39.8066818,83.3863705 39.8066818,59.485058 C39.8066818,57.6327372 39.8421364,55.863647 39.9112727,54.1618494 L39.9112727,54.1618494 Z M30.9519091,54.5425846 C27.0022727,56.3648007 24.0435909,60.5918462 24.8342273,70.1757466 C25.6709545,80.333406 30.7835,84.9093111 36.3321364,86.0957881 C44.1906364,105.320256 59.7729091,121.187172 78.2181364,121.187172 C96.6190455,121.187172 112.172955,105.396403 120.047409,86.2356861 C125.885,85.3130674 131.430091,80.7938299 132.307591,70.1757466 C132.972364,62.1200993 130.988682,57.8487823 127.994545,55.6068721 C134.738,20.9511199 110.742364,14.0146569 110.742364,14.0146569 C110.742364,14.0146569 88.3297727,-12.8209726 48.8085909,8.14425226 C41.06,12.2561918 33.1855455,20.8041384 27.9808182,31.3159701 C27.2398182,32.8105768 27.4259545,34.5956049 28.4541364,35.907813 C29.4858636,37.220021 31.1788182,37.8274264 32.8097273,37.462629 C28.3300455,47.2377824 30.9714091,53.9458044 30.9519091,54.5425846 L30.9519091,54.5425846 Z" id="Fill-34" stroke="#3B3B3D" fill="#FFFFFF"></path>
-                <path id="specs" d="M53.0108155,69.3830188 C53.0108155,65.8646911 54.566724,65.1520473 62.2790241,65.1520473 C69.9857207,65.1520473 71.5491006,65.8646911 71.5491006,69.3830188 C71.5491006,74.498716 67.3912948,78.662351 62.2790241,78.662351 C57.1686213,78.662351 53.0108155,74.498716 53.0108155,69.3830188 L53.0108155,69.3830188 Z M94.5757986,65.1520473 C102.280627,65.1520473 103.844007,65.8646911 103.844007,69.3830188 C103.844007,74.498716 99.6862014,78.662351 94.5757986,78.662351 C89.4672636,78.662351 85.3057221,74.498716 85.3057221,69.3830188 C85.3057221,65.8646911 86.8634984,65.1520473 94.5757986,65.1520473 L94.5757986,65.1520473 Z M76.1047557,71.012186 L80.7481992,71.012186 C81.5289551,78.0076914 87.431321,83.3478433 94.5757986,83.3478433 C102.248874,83.3478433 108.487451,77.1285771 108.487451,69.4484848 C108.487451,60.5638188 100.446411,60.597487 94.5757986,60.597487 C89.4840741,60.597487 82.7635956,60.3094368 81.0638637,66.4819416 L75.7853555,66.4819416 C74.0874914,60.3094368 67.3707485,60.597487 62.2790241,60.597487 C56.4046759,60.597487 48.3636364,60.5488551 48.3636364,69.4316507 C48.3636364,77.1154839 54.6078164,83.3702888 62.2790241,83.3702888 C69.4235017,83.3702888 75.3239997,78.0076914 76.1047557,71.012186 L76.1047557,71.012186 Z" id="specs" fill="#3B3B3D"></path>
-            </g>
-        </svg>
-        <h4>Rachit Gupta</h4>
-        <h5 style="font-weight:400;">UX Designer</h5>
-      </div>
-
     </div>
   </div>
 
 
   <!-- spacer -->
   <div class="spacer"></div>
-  <div class="spacer"></div>
+  <div class="spacer" id="scroll-specs"></div>
 
   <div class="container">
     <!-- Section heading -->
-    <div class="section-heading"><h5>Work</h5><hr class="underline"></div>
+    <div class="section-heading"><h4 style="font-weight:500;">Work</h4><hr class="underline"></div>
 
     <!-- spacer -->
     <div class="spacer"></div>
@@ -75,20 +73,21 @@
     <div class="section">
       <div class="row project">
         <div class="col s12 m8">
-          <a href="" target="_blank">
+          <a target="_blank">
             <img class="responsive-img gray-filter" src="img/samsclub.png">
           </a>
         </div>
 
         <div class="col s12 m4 center-align">
           <p class="flow-text">Improving purchase experience on Sam's Club</p>
-          <a class="waves-effect waves-light btn theme-color disabled">UX at Walmart Labs</a>
+          <a class="waves-effect waves-light btn theme-color disabled">Coming soon</a>
         </div>
         <!-- row ends here-->
       </div>
 
       <!-- spacer -->
       <div class="spacer"></div>
+      <div class="x-small-spacer"></div>
 
       <div class="row project">
         <div class="col s12 m8">
@@ -106,27 +105,29 @@
 
       <!-- spacer -->
       <div class="spacer"></div>
+      <div class="x-small-spacer"></div>
 
       <div class="row project">
         <div class="col s12 m8">
-          <a href="" target="_blank">
+          <a target="_blank">
             <img class="responsive-img gray-filter" src="img/chatbot-splash.png">
           </a>
         </div>
 
         <div class="col s12 m4 center-align">
           <p class="flow-text">Don't know why you're feeling weird? SocDoc has the answer! </p>
-          <a class="waves-effect waves-light btn theme-color disabled" target="_blank">In progress</a>
+          <a class="waves-effect waves-light btn theme-color disabled" target="_blank">Coming soon</a>
         </div>
         <!-- row ends here-->
       </div>
 
       <!-- spacer -->
       <div class="spacer"></div>
+      <div class="x-small-spacer"></div>
 
       <div class="row project">
         <div class="col s12 m8">
-          <a href="" target="_blank">
+          <a href="projects/ticketpass.html" target="_blank">
             <img class="responsive-img gray-filter" src="img/ticketpass.png">
           </a>
         </div>
@@ -192,7 +193,7 @@
     <div class="spacer"></div>
 
     <!-- Section heading -->
-    <div class="section-heading"><h5>I've worked with</h5><hr class="underline"></div>
+    <div class="section-heading"><h4 style="font-weight:500;">I've worked with</h4><hr class="underline"></div>
 
     <!-- spacer -->
     <div class="spacer"></div>
@@ -240,7 +241,7 @@
         <div class="spacer"></div>
         <div class="spacer"></div>
 
-        <p class="center-align xx-large-text">I'm looking for opportunities. Let's make great products <a href="" class="link-color drift-open-chat">together.</a></p>
+        <p class="center-align xx-large-text">I'm looking for opportunities. Let's make great products <a href="" class="link-color drift-open-chat" style="font-weight:500;">together.</a></p>
 
         <!-- place this script tag after the Drift embed tag -->
         <script>

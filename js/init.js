@@ -8,19 +8,19 @@
 //svg animation
 $(document).ready(function() {
   var tmax_tl = new TimelineMax({
-      delay: 1,
+      delay: 2,
       repeat: 0,
       repeatDelay: 2
     }),
 
     svg_shapes = $('#specs'),
     stagger_val = 0.00125,
-    duration = 2.5,
+    duration = 1.5,
 
     stagger_opts_from = {
       css: {
         opacity: 0,
-        transform: 'translate(0px, -200px) rotate(0deg) scale(1)',
+        transform: 'translate(0px, 40px) rotate(0deg) scale(1)',
         transformOrigin: 'center center'
       },
       ease: Elastic.easeInOut
@@ -29,7 +29,7 @@ $(document).ready(function() {
     stagger_opts_to = {
       css: {
         opacity: 1,
-        transform: 'translate(0px) rotate(0deg) scale(1)'
+        transform: 'translate(0px) rotate(0deg) scale(0.9)'
       },
       ease: Elastic.easeInOut
     };
