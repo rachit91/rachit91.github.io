@@ -1,33 +1,23 @@
-<svg style="box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);" xmlns="http://www.w3.org/2000/svg" width="404" height="814" viewBox="0 0 404 814" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg xmlns="http://www.w3.org/2000/svg" width="654" height="1325" viewBox="0 0 654 1325" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <rect id="a" width="54.25" height="7.752" x=".313" y=".514" rx="3.876"/>
-    <path id="c" d="M400,197 L400,781.996321 C400,799.677661 385.669358,814 367.991614,814 L32.8833857,814 C15.1977465,814 0.875,799.671465 0.875,781.996321 L0.875,32.003679 C0.875,14.3223394 15.2056424,0 32.8833857,0 L367.991614,0 C385.677254,0 400,14.3285352 400,32.003679 L400,156.985714 L401.878622,156.985714 C402.435282,156.985714 402.875,157.43752 402.875,157.99485 L402.875,195.990865 C402.875,196.550621 402.428906,197 401.878622,197 L400,197 Z"/>
-    <rect id="e" width="352.625" height="627.943" x=".125" y=".029" rx="2"/>
+    <rect id="a" width="644" height="1325" x="5" rx="97"/>
+    <mask id="c" width="644" height="1325" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <rect id="b" width="572" height="1010" x="41" y="158" rx="3"/>
+    <mask id="d" width="572" height="1010" x="0" y="0" fill="white">
+      <use xlink:href="#b"/>
+    </mask>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <ellipse cx="147.575" cy="50.39" stroke="#979797" rx="5.813" ry="5.814"/>
-    <g transform="translate(174 46)">
-      <mask id="b" fill="white">
-        <use xlink:href="#a"/>
-      </mask>
-      <rect width="54.25" height="7.752" x=".313" y=".514" stroke="#979797" stroke-width="2" rx="3.876" mask="url(#b)"/>
-    </g>
-    <g transform="translate(1)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
-      </mask>
-      <path fill="#FFFFFF" stroke="#979797" stroke-width="2" d="M400,197 L400,781.996321 C400,799.677661 385.669358,814 367.991614,814 L32.8833857,814 C15.1977465,814 0.875,799.671465 0.875,781.996321 L0.875,32.003679 C0.875,14.3223394 15.2056424,0 32.8833857,0 L367.991614,0 C385.677254,0 400,14.3285352 400,32.003679 L400,156.985714 L401.878622,156.985714 C402.435282,156.985714 402.875,157.43752 402.875,157.99485 L402.875,195.990865 C402.875,196.550621 402.428906,197 401.878622,197 L400,197 Z" mask="url(#d)"/>
-    </g>
-    <rect width="383.625" height="794.619" x="9.625" y="9.69" stroke="#979797" rx="30"/>
-    <path stroke="#979797" d="M1.81041667 157.954762L1.80352778 208.345238M.90625 95.9357143L.90625 126.945238M1.81041667 219.97381L1.80352778 270.364286"/>
-    <ellipse cx="201.438" cy="27.133" stroke="#979797" rx="3.875" ry="3.876"/>
-    <g transform="translate(25 93)">
-      <mask id="f" fill="white">
-        <use xlink:href="#e"/>
-      </mask>
-      <rect width="352.625" height="627.943" x=".125" y=".029" stroke="#979797" stroke-width="2" rx="2" mask="url(#f)"/>
-    </g>
-    <ellipse cx="201.438" cy="765.548" stroke="#979797" rx="23.25" ry="23.257"/>
-    <ellipse cx="201.438" cy="765.548" stroke="#979797" rx="27.125" ry="27.133"/>
+    <use fill="#FFFFFF" stroke="#6A6A6A" stroke-width="12" mask="url(#c)" xlink:href="#a"/>
+    <rect width="4" height="52" x="1" y="170" fill="#F1F1F1" rx="2"/>
+    <rect width="5" height="98" y="403" fill="#F1F1F1" rx="2.5"/>
+    <rect width="5" height="98" y="282" fill="#F1F1F1" rx="2.5"/>
+    <rect width="5" height="98" x="649" y="282" fill="#F2F2F2" rx="2.5"/>
+    <rect width="116" height="15" x="297" y="79" fill="#6A6A6A" rx="7.5"/>
+    <circle cx="252" cy="86" r="11" fill="#6A6A6A"/>
+    <path fill="#6A6A6A" d="M327,1281 C351.300529,1281 371,1261.30053 371,1237 C371,1212.69947 351.300529,1193 327,1193 C302.699471,1193 283,1212.69947 283,1237 C283,1261.30053 302.699471,1281 327,1281 Z M327,1288 C298.833478,1288 276,1265.16652 276,1237 C276,1208.83348 298.833478,1186 327,1186 C355.166522,1186 378,1208.83348 378,1237 C378,1265.16652 355.166522,1288 327,1288 Z"/>
+    <use fill="#FFFFFF" stroke="#6A6A6A" stroke-width="6" mask="url(#d)" xlink:href="#b"/>
   </g>
 </svg>
