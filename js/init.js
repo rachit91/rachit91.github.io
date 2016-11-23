@@ -1,7 +1,16 @@
 (function($){
   $(function(){
-
     $('.button-collapse').sideNav();
+  }); 
+
+  $(window).scroll(function(){                          
+    if ($(this).scrollTop() > 100) {
+        //$('#top-nav').fadeIn(500);
+        $('#top-nav').removeClass("display-none");
+    } else {
+        //$('#top-nav').fadeOut(500);
+        $('#top-nav').addClass("display-none");
+    }
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
@@ -57,3 +66,9 @@ var nextslide = function(){
     $('.carousel').carousel('next');
 }
 
+//smooth scrolling
+$("#specs").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#scroll-specs").offset().top
+  }, 800);
+});
