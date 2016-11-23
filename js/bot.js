@@ -17,7 +17,7 @@ $(function() {
 					.fbMessenger('showQuickReplies', [
 						'Great!',
 						'Isn\'t everyone?',
-						'Look at work',
+						'Look at portfolio',
 						'You\'re in!',
 						'Okay'
 					], { timestamp: now, delay: 100 })
