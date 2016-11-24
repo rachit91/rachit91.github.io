@@ -26,8 +26,8 @@ $(function() {
 					.fbMessenger('scrollQuickReplies', 4, { delay: 1000 })
 					.fbMessenger('selectQuickReply', 2, { delay: 1200 })
 					.fbMessenger('typingIndicator', { delay: 2000 })
-					.fbMessenger('message', 'bot', 'Sure. Feel free to look around and remember to shoot me a message after!', { timestamp: now, delay: 1500 })
+					.fbMessenger('message', 'bot', 'I can\'t get around that. Can I? Link to my <a href="#scroll-to-work" id="bot-work">work.</a>', { timestamp: now, delay: 1500 })
 					.fbMessenger('typingIndicator', { delay: 200 })
-					.fbMessenger('message', 'bot', 'Scroll down yo!', { timestamp: now, delay: 1200 })
+					.fbMessenger('message', 'bot', 'I\'d love to hear your thoughts!', { timestamp: now, delay: 1200 })
 					.fbMessenger('run');
 			});

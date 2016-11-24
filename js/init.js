@@ -1,16 +1,6 @@
 (function($){
   $(function(){
     $('.button-collapse').sideNav();
-  }); 
-
-  $(window).scroll(function(){                          
-    if ($(this).scrollTop() > 100) {
-        //$('#top-nav').fadeIn(500);
-        $('#top-nav').removeClass("display-none");
-    } else {
-        //$('#top-nav').fadeOut(500);
-        $('#top-nav').addClass("display-none");
-    }
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
@@ -22,14 +12,14 @@ $(document).ready(function() {
       repeatDelay: 2
     }),
 
-    svg_shapes = $('#specs'),
+    svg_shapes = $('#logo'),
     stagger_val = 0.00125,
     duration = 1.5,
 
     stagger_opts_from = {
       css: {
         opacity: 0,
-        transform: 'translate(0px, 40px) rotate(0deg) scale(1)',
+        transform: 'translate(0px, 50px) rotate(0deg) scale(1)',
         transformOrigin: 'center center'
       },
       ease: Elastic.easeInOut
@@ -38,7 +28,7 @@ $(document).ready(function() {
     stagger_opts_to = {
       css: {
         opacity: 1,
-        transform: 'translate(0px) rotate(0deg) scale(0.9)'
+        transform: 'translate(0px) rotate(0deg) scale(1.2)'
       },
       ease: Elastic.easeInOut
     };
@@ -66,9 +56,24 @@ var nextslide = function(){
     $('.carousel').carousel('next');
 }
 
-//smooth scrolling
-$("#specs").click(function() {
+//Smooth scrolling
+$("#logo").click(function() {
   $('html, body').animate({
-      scrollTop: $("#scroll-specs").offset().top
+      scrollTop: $("#scroll-to-work").offset().top
   }, 800);
 });
+
+$("#bot-work").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#scroll-to-work").offset().top
+  }, 900);
+});
+
+var figure = $(".video").hover( hoverVideo, hideVideo );
+function hoverVideo(e) {  
+    $(this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $(this).get(0).pause(); 
+}

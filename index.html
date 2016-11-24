@@ -22,25 +22,6 @@
 </head>
 <body>
   <div class="bg">
-    <div class="navbar-fixed">
-      <nav class="lighten-1 display-none" role="navigation" id="top-nav">
-        <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.svg"></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="about.html" target="_blank">About</a></li>
-            <li><a href="https://medium.com/@rachitgupta" target="_blank">Thoughts</a></li>
-            <li><a href="resume.pdf" target="_blank">Resume</a></li>
-          </ul>
-
-          <ul id="nav-mobile" class="side-nav">
-            <li><a href="about.html" target="_blank">About</a></li>
-            <li><a href="https://medium.com/@rachitgupta" target="_blank">Thoughts</a></li>
-            <li><a href="resume.pdf" target="_blank">Resume</a></li>
-          </ul>
-          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons" style="color:#424242;">menu</i></a>
-        </div>
-      </nav>
-    </div><br>
-  
     <div class="container">
       <!-- Page title-->
       <div class="hero-home">
@@ -50,11 +31,19 @@
         </div>
 
         <div class="intro">
-          <a href="#scroll-specs"><svg id="specs" class="shake" width="61px" height="24px" viewBox="48 60 61 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-              <path d="M53.0108155,69.3830188 C53.0108155,65.8646911 54.566724,65.1520473 62.2790241,65.1520473 C69.9857207,65.1520473 71.5491006,65.8646911 71.5491006,69.3830188 C71.5491006,74.498716 67.3912948,78.662351 62.2790241,78.662351 C57.1686213,78.662351 53.0108155,74.498716 53.0108155,69.3830188 L53.0108155,69.3830188 Z M94.5757986,65.1520473 C102.280627,65.1520473 103.844007,65.8646911 103.844007,69.3830188 C103.844007,74.498716 99.6862014,78.662351 94.5757986,78.662351 C89.4672636,78.662351 85.3057221,74.498716 85.3057221,69.3830188 C85.3057221,65.8646911 86.8634984,65.1520473 94.5757986,65.1520473 L94.5757986,65.1520473 Z M76.1047557,71.012186 L80.7481992,71.012186 C81.5289551,78.0076914 87.431321,83.3478433 94.5757986,83.3478433 C102.248874,83.3478433 108.487451,77.1285771 108.487451,69.4484848 C108.487451,60.5638188 100.446411,60.597487 94.5757986,60.597487 C89.4840741,60.597487 82.7635956,60.3094368 81.0638637,66.4819416 L75.7853555,66.4819416 C74.0874914,60.3094368 67.3707485,60.597487 62.2790241,60.597487 C56.4046759,60.597487 48.3636364,60.5488551 48.3636364,69.4316507 C48.3636364,77.1154839 54.6078164,83.3702888 62.2790241,83.3702888 C69.4235017,83.3702888 75.3239997,78.0076914 76.1047557,71.012186 L76.1047557,71.012186 Z" id="specs" stroke="none" fill="#3B3B3D" fill-rule="evenodd"></path>
-          </svg></a>
+          <a href="#scroll-to-work" class="shake"><img src="img/logo.svg" id="logo"></a>
           <h4>Rachit Gupta</h4>
-          <h5 style="font-weight:400;">UX Designer</h5>
+          <h5 style="font-weight:400;">UX Designer</h5><br><br>
+          
+          <a href="about.html" target="_blank">
+            <div class="chip">About</div>
+          </a>
+          <a href="https://medium.com/@rachitgupta" target="_blank">
+            <div class="chip">Thoughts</div>
+          </a>
+          <a href="resume.pdf" target="_blank">
+            <div class="chip">Resume</div>
+          </a>
         </div>
       </div>
     </div>
@@ -63,9 +52,9 @@
 
   <!-- spacer -->
   <div class="spacer"></div>
-  <div class="spacer" id="scroll-specs"></div>
+  <div class="spacer" id="scroll-to-work"></div>
 
-  <div class="container">
+  
     <!-- Section heading -->
     <div class="section-heading"><h4 style="font-weight:500;">Work</h4><hr class="underline"></div>
 
@@ -74,72 +63,69 @@
 
     <!--   Projects section   -->
     <div class="section">
-      <div class="row project">
-        <div class="col s12 m8">
+      <div class="row center-align">
+        <div class="col s12">
           <a target="_blank">
-            <img class="responsive-img gray-filter" src="img/samsclub.png">
+            <video class="responsive-video video" loop>
+              <source src="videos/sams_checkout.mp4" type="video/mp4">
+            </video>
           </a>
-        </div>
 
-        <div class="col s12 m4 center-align">
           <p class="flow-text">Improving purchase experience on Sam's Club</p>
           <a class="waves-effect waves-light btn theme-color disabled">Coming soon</a>
         </div>
-        <!-- row ends here-->
       </div>
 
       <!-- spacer -->
       <div class="spacer"></div>
       <div class="x-small-spacer"></div>
 
-      <div class="row project">
-        <div class="col s12 m8">
+      <div class="row center-align">
+        <div class="col s12">
           <a href="projects/sap.html" target="_blank">
-            <img class="responsive-img gray-filter" src="img/sap-storyboards.png">
+            <video class="responsive-video video" loop>
+              <source src="videos/ux-sap.mp4" type="video/mp4">
+            </video>
           </a>
-        </div>
 
-        <div class="col s12 m4 center-align">
-          <p class="flow-text">Re-imagining marketing experience</p>
+          <p class="flow-text">Re-imagining marketing campaigns</p>
           <a class="waves-effect waves-light btn theme-color" href="projects/sap.html" target="_blank">UX at SAP</a>
         </div>
-        <!-- row ends here-->
       </div>
 
       <!-- spacer -->
       <div class="spacer"></div>
       <div class="x-small-spacer"></div>
 
-      <div class="row project">
-        <div class="col s12 m8">
+      <div class="row center-align">
+        <div class="col s12">
           <a target="_blank">
-            <img class="responsive-img gray-filter" src="img/chatbot-splash.png">
+            <video class="responsive-video video" loop>
+              <source src="videos/chatbot-splash.mp4" type="video/mp4">
+            </video>
           </a>
-        </div>
 
-        <div class="col s12 m4 center-align">
-          <p class="flow-text">Don't know why you're feeling weird? SocDoc has the answer! </p>
+          <p class="flow-text">Don't know why you're feeling weird? This chatbot has the answer! </p>
           <a class="waves-effect waves-light btn theme-color disabled" target="_blank">Coming soon</a>
+          <p class="flow-text sm-text">Video from Google</p>
         </div>
-        <!-- row ends here-->
       </div>
 
       <!-- spacer -->
       <div class="spacer"></div>
       <div class="x-small-spacer"></div>
 
-      <div class="row project">
-        <div class="col s12 m8">
+      <div class="row center-align">
+        <div class="col s12">
           <a href="projects/ticketpass.html" target="_blank">
-            <img class="responsive-img gray-filter" src="img/ticketpass.png">
+            <video class="responsive-video video" loop>
+              <source src="videos/ticketpass.mp4" type="video/mp4">
+            </video>
           </a>
-        </div>
 
-        <div class="col s12 m4 center-align">
           <p class="flow-text">Find the right concerts and buy tickets</p>
           <a class="waves-effect waves-light btn theme-color" href="projects/ticketpass.html" target="_blank">Ticketpass</a>
         </div>
-        <!-- row ends here-->
       </div>
 
       <!-- spacer -->
@@ -195,6 +181,7 @@
     <!-- spacer -->
     <div class="spacer"></div>
 
+  <div class="container" style="width:85%;">
     <!-- Section heading -->
     <div class="section-heading"><h4 style="font-weight:500;">I've worked with</h4><hr class="underline"></div>
 
@@ -244,7 +231,7 @@
         <div class="spacer"></div>
         <div class="spacer"></div>
 
-        <p class="center-align xx-large-text">I'm looking for opportunities. Let's make great products <a href="" class="link-color drift-open-chat" style="font-weight:500;">together.</a></p>
+        <p class="center-align xxx-large-text">Let's make great products <a href="" class="link-color drift-open-chat" style="font-weight:500;">together.</a></p>
 
         <!-- place this script tag after the Drift embed tag -->
         <script>
@@ -328,7 +315,7 @@
   <script src="js/jquery.fbmessenger.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
   <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
   <script src="js/bot.js"></script>
+  <script src="js/init.js"></script>
   </body>
 </html>

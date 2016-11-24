@@ -106,6 +106,10 @@ h5  {
   font-size: 20px;
 }
 
+.xxx-large-text {
+  font-size: 30px;
+}
+
 .tabs .tab a {
   color:#6173F4;
 }
@@ -168,6 +172,10 @@ h5  {
       font-size: 18px;
     }
 
+    .xxx-large-text {
+      font-size: 24px;
+    }
+
     .spacer {
       height:50px;
       width: 100%;
@@ -215,16 +223,6 @@ h5  {
 
 
 /* HOME-PAGE STYLES */
-#top-nav {
-  -webkit-transition: -webkit-transform 1s; /* Safari */
-  transition: transform 1s;
-}
-
-.display-none {
-  transform: translateY(-200px);
-  -webkit-transform: translateY(-200px);
-}
-
 .bg {
   height: 100vh;
   background-color: #FAFAFA;
@@ -234,14 +232,11 @@ h5  {
   display: flex;
   justify-content:space-around;
   align-items:center;
+  padding-top: 40px;
 }
 
 #home-pic-container{ 
   position: relative;
-}
-
-#specs {
-  display: inline;
 }
 
 #iphone-svg {
@@ -285,7 +280,6 @@ div.screen-content {
 .card:hover{
   box-shadow: 0 10px 10px 0 rgba(0,0,0,.19), 0 6px 3px 0 rgba(0,0,0,.23);
 }
-
 
 /* WORK-PAGE STYLES */
 .work-header {
