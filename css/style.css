@@ -324,3 +324,12 @@ div.screen-content {
   position: absolute;
   right: 15%;
 }
+
+/* Adjusting the image height on messenger bot on homepage*/
+
+.jsm-title-hidden {
+  display: none !important;
+}
+.jsm-image {
+  padding-top:80% !important;
+}
