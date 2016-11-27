@@ -332,4 +332,6 @@ div.screen-content {
 }
 .jsm-image {
   padding-top:80% !important;
+  border-bottom-left-radius: 1.55em !important;
+  border-bottom-right-radius: 1.55em !important;
 }
