@@ -226,13 +226,14 @@ h5  {
 .bg {
   height: 100vh;
   background-color: #FAFAFA;
+  display: flex;
+  align-items: center;
 }
 
 .hero-home {
   display: flex;
   justify-content:space-around;
   align-items:center;
-  padding-top: 40px;
 }
 
 #home-pic-container{ 

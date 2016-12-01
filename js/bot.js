@@ -8,7 +8,7 @@ $(function() {
 		})
 		.fbMessenger('start', { delay: 0 })
 		.fbMessenger('typingIndicator', { delay: 500 })
-		.fbMessenger('message', 'bot', 'Hey! I\'m Rachit. Welcome to my design portfolio.', { timestamp: now, delay: 2500 })
+		.fbMessenger('message', 'bot', 'Hey! I\'m Rachit. Welcome to my design portfolio.', { timestamp: now, delay: 1500 })
 
 		.fbMessenger('showGenericTemplate', [
 		{
