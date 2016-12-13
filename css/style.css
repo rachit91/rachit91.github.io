@@ -200,12 +200,15 @@ h5  {
 
   /* ABOUT-PAGE STYLES */
   .about-header {
-    height: 30vh !important;
+    background: url('') no-repeat !important;
   }
 
   .about {
-    max-width: 70%;
-    margin-top: 45vh;
+    max-width: 80%;
+  }
+
+  .social-icons > li > a {
+    color: #787878 !important;
   }
 }
 
@@ -296,8 +299,6 @@ div.screen-content {
 /* PROJECT-PAGE STYLES */
 .project-header {
   height: 95vh;
-  background: url('../img/ticketpass-hero.png') no-repeat center;
-  background-size: 100%;
 }
 
 .work-logo {
@@ -315,7 +316,7 @@ div.screen-content {
 /* ABOUT-PAGE STYLES */
 .about-header {
   height: 100vh;
-  background: url('../img/about-bg.png') no-repeat center;
+  background: url('../img/about_profile_img.png') no-repeat;
   background-size: 100%;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -323,7 +324,7 @@ div.screen-content {
 
 .about {
   position: absolute;
-  right: 15%;
+  right:10%;
 }
 
 /* Adjusting the image height on messenger bot on homepage*/
