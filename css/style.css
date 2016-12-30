@@ -328,7 +328,6 @@ div.screen-content {
 }
 
 /* Adjusting the image height on messenger bot on homepage*/
-
 .jsm-title-hidden {
   display: none !important;
 }
@@ -336,4 +335,9 @@ div.screen-content {
   padding-top:80% !important;
   border-bottom-left-radius: 1.55em !important;
   border-bottom-right-radius: 1.55em !important;
+}
+
+/* Hiding type a message box on homepage */
+.jsm-input-message {
+  display: none;
 }
