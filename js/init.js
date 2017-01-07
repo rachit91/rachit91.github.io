@@ -63,6 +63,12 @@ $("#logo").click(function() {
   }, 800);
 });
 
+$("#work-chip").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#scroll-to-work").offset().top
+  }, 800);
+});
+
 $("#bot-work").click(function() {
   $('html, body').animate({
       scrollTop: $("#scroll-to-work").offset().top

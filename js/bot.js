@@ -8,7 +8,8 @@ $(function() {
 		})
 		.fbMessenger('start', { delay: 0 })
 		.fbMessenger('typingIndicator', { delay: 500 })
-		.fbMessenger('message', 'bot', 'Hey! I\'m Rachit. Welcome to my design portfolio.', { timestamp: now, delay: 1500 })
+		.fbMessenger('message', 'bot', 'Yo! I am excited about the fusion of human nature and tech with Chatbots.', { timestamp: now, delay: 1000 })
+		.fbMessenger('message', 'bot', 'and this is a little demo I am featuring..', { timestamp: now, delay: 300 })
 
 		.fbMessenger('showGenericTemplate', [
 		{
@@ -17,28 +18,29 @@ $(function() {
 		subtitle: '',
 		buttons: []
 		}
-		], { delay: 600 })
+		], { delay: 200 })
 
-		.fbMessenger('message', 'user', 'Hey Rachit! Tell me about yourself?', { timestamp: now, delay: 3000 })
+		.fbMessenger('message', 'user', 'And why should a designer spend time on that?', { timestamp: now, delay: 2000 })
+		.fbMessenger('typingIndicator', { delay: 800 })
+		.fbMessenger('message', 'bot', 'We are witnessing a platform shift. Messaging was already big and bots running inside a messaging app made it bigger!', { timestamp: now, delay: 2500 })
 		.fbMessenger('typingIndicator', { delay: 1000 })
-		.fbMessenger('message', 'bot', 'I\'m an engineer passionate about design. Over 2 years of experience in creating engaging and functional products.', { timestamp: now, delay: 4500 })
-		.fbMessenger('typingIndicator', { delay: 3000 })
-		.fbMessenger('message', 'bot', 'and I\'m <b>looking for interesting opportunities</b> btw.', { timestamp: now, delay: 2000 })
+		.fbMessenger('message', 'bot', 'and blah blah..', { timestamp: now, delay: 2000 })
+		.fbMessenger('message', 'bot', 'Ok choose from the following options:', { timestamp: now, delay: 800 })
 		.fbMessenger('showQuickReplies', [
-			'Great!',
-			'Isn\'t everyone?',
-			'Look at portfolio',
-			'You\'re in!',
-			'Okay'
-		], { timestamp: now, delay: 100 })
-		.fbMessenger('scrollQuickReplies', 3, { delay: 3000 })
+			'My life',
+			'My GLA45 AMG',
+			'My portfolio',
+			'My design process',
+			'My bot'
+		], { timestamp: now, delay: 200 })
+		.fbMessenger('scrollQuickReplies', 3, { delay: 2000 })
 		.fbMessenger('scrollQuickReplies', 0, { delay: 1000 })
 		.fbMessenger('scrollQuickReplies', 4, { delay: 1000 })
 		.fbMessenger('selectQuickReply', 2, { delay: 1200 })
 		.fbMessenger('typingIndicator', { delay: 2000 })
-		.fbMessenger('message', 'bot', 'I can\'t get around that. Can I? Link to my <a href="#scroll-to-work" id="bot-work">work.</a>', { timestamp: now, delay: 1500 })
+		.fbMessenger('message', 'bot', 'Obvious choice, haha', { timestamp: now, delay: 1000 })
 		.fbMessenger('typingIndicator', { delay: 200 })
-		.fbMessenger('message', 'bot', 'I\'d love to hear your thoughts!', { timestamp: now, delay: 1200 })
+		.fbMessenger('message', 'bot', 'You gotta scroll down now.. DO IT!', { timestamp: now, delay: 800 })
 		.fbMessenger('message', '', '', { timestamp: now, delay: 0 })
 		.fbMessenger('message', '', '', { timestamp: now, delay: 0 })
 
