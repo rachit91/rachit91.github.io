@@ -56,23 +56,11 @@ var nextslide = function(){
     $('.carousel').carousel('next');
 }
 
-//Smooth scrolling
-$("#logo").click(function() {
+//smooth-scrolling
+$("#work-link").click(function() {
   $('html, body').animate({
       scrollTop: $("#scroll-to-work").offset().top
   }, 800);
-});
-
-$("#work-chip").click(function() {
-  $('html, body').animate({
-      scrollTop: $("#scroll-to-work").offset().top
-  }, 800);
-});
-
-$("#bot-work").click(function() {
-  $('html, body').animate({
-      scrollTop: $("#scroll-to-work").offset().top
-  }, 900);
 });
 
 var figure = $(".video").hover( hoverVideo, hideVideo );

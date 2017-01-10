@@ -342,3 +342,8 @@ div.screen-content {
 .jsm-input-message {
   display: none;
 }
+
+/*Adjusting the fontsize of the chat content*/
+.jsm-chat-content {
+  font-size: 1.2em !important;
+}
