@@ -9,7 +9,7 @@ $(function() {
 		.fbMessenger('start', { delay: 0 })
 		.fbMessenger('typingIndicator', { delay: 500 })
 		.fbMessenger('message', 'bot', 'Hi, I\'m Rachit - a product focused designer inspired by human emotions and curiosity.', { timestamp: now, delay: 500 })
-		.fbMessenger('message', 'bot', 'Currently, I\'m working at Walmart Labs.', { timestamp: now, delay: 500 })
+		.fbMessenger('message', 'bot', 'Currently, I\'m working at <b>Walmart Labs</b>.', { timestamp: now, delay: 500 })
 
 		.fbMessenger('showGenericTemplate', [
 		{
