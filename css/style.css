@@ -6,11 +6,11 @@ body {
 }
 
 .theme-color {
-  background-color: #6173F4;
+  background-color: #007aff;
 }
 
 .link-color {
-  color: #6173F4 !important;
+  color: #007aff !important;
 }
 
 #logo-container {
@@ -61,7 +61,7 @@ h5  {
 .underline {
   border: 2px;
   border-bottom-style: solid;
-  border-bottom-color: #6173F4;
+  border-bottom-color: #007AFF;
   width: 40px;
 }
 
@@ -111,7 +111,7 @@ h5  {
 }
 
 .tabs .tab a {
-  color:#6173F4;
+  color:#007aff;
 }
 
 .tabs .tab a:hover {
@@ -119,7 +119,7 @@ h5  {
 }
 
 .tabs .indicator {
-  background-color:#6173F4;
+  background-color:#007aff;
 }
 
 /*MEDIA QUERIES*/
@@ -346,4 +346,8 @@ div.screen-content {
 /*Adjusting the fontsize of the chat content*/
 .jsm-chat-content {
   font-size: 1.2em !important;
+}
+
+.jsm-quick-reply-option > a {
+  color: #007aff !important;
 }
