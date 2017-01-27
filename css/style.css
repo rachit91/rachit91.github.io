@@ -13,6 +13,10 @@ body {
   color: #007aff !important;
 }
 
+a {
+  color:#007aff;
+}
+
 #logo-container {
 	top:18%;
 }
@@ -173,7 +177,7 @@ h5  {
     }
 
     .xxx-large-text {
-      font-size: 24px;
+      font-size: 20px;
     }
 
     .spacer {
@@ -205,10 +209,6 @@ h5  {
 
   .about {
     max-width: 80%;
-  }
-
-  .social-icons > li > a {
-    color: #787878 !important;
   }
 }
 
