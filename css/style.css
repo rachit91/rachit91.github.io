@@ -208,7 +208,7 @@ h5  {
   }
 
   .about {
-    max-width: 80%;
+    max-width: 80% !important;
   }
 }
 
@@ -317,15 +317,14 @@ div.screen-content {
 /* ABOUT-PAGE STYLES */
 .about-header {
   height: 100vh;
-  background: url('../img/about_profile_img.png') no-repeat;
+  background: url('../img/about_profile_img1.png') no-repeat;
   background-size: 100%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
 }
 
 .about {
   position: absolute;
-  right:10%;
+  right: 10%;
+  max-width:35%;
 }
 
 /* Adjusting the image height on messenger bot on homepage*/
