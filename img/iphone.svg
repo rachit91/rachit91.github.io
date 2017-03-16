@@ -1,30 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="668" height="1349" viewBox="0 0 668 1349" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg xmlns="http://www.w3.org/2000/svg" width="703" height="1366" viewBox="0 0 703 1366" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
-      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
-      <feColorMatrix values="0 0 0 0 0.704108206 0 0 0 0 0.704108206 0 0 0 0 0.704108206 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
-      <feMerge>
-        <feMergeNode in="shadowMatrixOuter1"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="b" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="15" in="SourceGraphic"/>
     </filter>
-    <rect id="b" width="644" height="1325" rx="97"/>
+    <filter id="c" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="2" in="SourceGraphic"/>
+    </filter>
+    <rect id="a" width="590" height="1035" rx="3"/>
+    <filter id="d" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0.818797832 0 0 0 0 0.818797832 0 0 0 0 0.818797832 0 0 0 1 0" in="shadowInnerInner1"/>
+    </filter>
+    <mask id="e" width="590" height="1035" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
   </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(7 8)">
-    <g filter="url(#a)" transform="translate(5)">
-      <mask id="c" fill="white">
-        <use xlink:href="#b"/>
-      </mask>
-      <rect width="644" height="1325" fill="#FFFFFF" rx="97" mask="url(#c)"/>
-    </g>
+  <g fill="none" fill-rule="evenodd" transform="translate(25 20)">
+    <rect width="627" height="1290" fill="#BCBCBC" fill-opacity=".698" filter="url(#b)" rx="97" transform="translate(13 18)"/>
+    <rect width="644" height="1325" fill="#FFFFFF" filter="url(#c)" rx="97" transform="translate(5)"/>
     <rect width="4" height="52" x="1" y="170" fill="#F1F1F1" rx="2"/>
     <rect width="5" height="98" y="403" fill="#F1F1F1" rx="2.5"/>
     <rect width="5" height="98" y="282" fill="#F1F1F1" rx="2.5"/>
     <rect width="5" height="98" x="649" y="282" fill="#F2F2F2" rx="2.5"/>
-    <rect width="116" height="15" x="297" y="79" fill="#D7D7D7" rx="7.5"/>
-    <circle cx="252" cy="86" r="11" fill="#D7D7D7"/>
-    <path fill="#D7D7D7" d="M327,1297 C351.300529,1297 371,1277.30053 371,1253 C371,1228.69947 351.300529,1209 327,1209 C302.699471,1209 283,1228.69947 283,1253 C283,1277.30053 302.699471,1297 327,1297 Z M327,1304 C298.833478,1304 276,1281.16652 276,1253 C276,1224.83348 298.833478,1202 327,1202 C355.166522,1202 378,1224.83348 378,1253 C378,1281.16652 355.166522,1304 327,1304 Z"/>
-    <rect width="590" height="1035" fill="#FFFFFF" stroke="#D7D7D7" stroke-width="2" rx="3" transform="translate(32 146)"/>
+    <rect width="116" height="15" x="297" y="79" fill="#D7D7D7" opacity=".5" rx="7.5"/>
+    <circle cx="252" cy="86" r="11" fill="#D7D7D7" opacity=".5"/>
+    <path fill="#D7D7D7" d="M327,1297 C351.300529,1297 371,1277.30053 371,1253 C371,1228.69947 351.300529,1209 327,1209 C302.699471,1209 283,1228.69947 283,1253 C283,1277.30053 302.699471,1297 327,1297 Z M327,1304 C298.833478,1304 276,1281.16652 276,1253 C276,1224.83348 298.833478,1202 327,1202 C355.166522,1202 378,1224.83348 378,1253 C378,1281.16652 355.166522,1304 327,1304 Z" opacity=".5"/>
+    <g transform="translate(32 146)">
+      <use fill="#FFFFFF" xlink:href="#a"/>
+      <use fill="black" filter="url(#d)" xlink:href="#a"/>
+      <use stroke="#DDDDDD" stroke-opacity=".501" stroke-width="2" mask="url(#e)" xlink:href="#a"/>
+    </g>
   </g>
 </svg>
