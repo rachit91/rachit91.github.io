@@ -21,13 +21,13 @@ $(function() {
 		}
 		], { delay: 1500 })
 
-		.fbMessenger('message', 'user', 'I see that you\'re into chats and messaging experiences.', { timestamp: now, delay: 3000 })
+		.fbMessenger('message', 'user', 'Hey! I see that you\'re into chats and messaging experiences.', { timestamp: now, delay: 3000 })
 		.fbMessenger('typingIndicator', { delay: 2500 })
 		.fbMessenger('message', 'bot', 'Oh I sure am! Scroll down for my work or follow these:', { timestamp: now, delay: 1500 })
 		.fbMessenger('message', '', '', { timestamp: now, delay: 0 })
 		.fbMessenger('showQuickReplies', [
 			'<a href="#scroll-to-work" id="work-link">Work</a>',
-			'<a href="https://medium.com/@rachitgupta" target="_blank">Thoughts</a>',
+			'<a href="https://medium.com/@rachitgupta" target="_blank">Writing</a>',
 			'<a href="about.html" target="_blank">About</a>',
 			'<a href="resume.pdf" target="_blank">Resume</a>'
 		], { timestamp: now, delay: 1500 })
