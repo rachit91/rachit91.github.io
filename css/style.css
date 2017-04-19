@@ -221,6 +221,9 @@ h5  {
 
   .about {
     max-width: 80% !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    padding:0% !important;
   }
 }
 
@@ -329,11 +332,15 @@ div.screen-content {
 /* ABOUT-PAGE STYLES */
 .about-header {
   height: 100vh;
-  background: url('../img/about_profile_img1.png') no-repeat;
+  background: url('../img/about_img.JPG') no-repeat center;
   background-size: 100%;
 }
 
 .about {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.20);
+  border-radius: 5px;
+  background-color: white;
+  padding:1.5%;
   position: absolute;
   right: 10%;
   max-width:42%;
