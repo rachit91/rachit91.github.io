@@ -8,8 +8,8 @@ $(function() {
 		})
 		.fbMessenger('start', { delay: 0 })
 		.fbMessenger('typingIndicator', { delay: 1200 })
-		.fbMessenger('message', 'bot', 'Hi, I\'m Rachit - a product focused designer inspired by human emotions and curiousity.', { timestamp: now, delay: 800 })
-		.fbMessenger('message', 'bot', 'Currently, I\'m working at <b>Walmart Labs</b>.', { timestamp: now, delay: 1200 })
+		.fbMessenger('message', 'bot', 'Hi, I\'m Rachit - a product focused designer inspired by human emotions.', { timestamp: now, delay: 800 })
+		.fbMessenger('message', 'bot', 'Rolling beans at <b>Walmart Labs</b> 😆', { timestamp: now, delay: 1200 })
 		.fbMessenger('typingIndicator', { delay: 800 })
 
 		.fbMessenger('showGenericTemplate', [
@@ -21,9 +21,9 @@ $(function() {
 		}
 		], { delay: 1500 })
 
-		.fbMessenger('message', 'user', 'Hey! I see that you\'re into chats and messaging experiences.', { timestamp: now, delay: 3000 })
+		.fbMessenger('message', 'user', 'I\'m only here to see your work bruh, show and tell..', { timestamp: now, delay: 3000 })
 		.fbMessenger('typingIndicator', { delay: 2500 })
-		.fbMessenger('message', 'bot', 'Oh I sure am! Scroll down for my work or follow these:', { timestamp: now, delay: 1500 })
+		.fbMessenger('message', 'bot', 'I knew you would think that. <a href="https://rachit91.github.io/bundles-proto" target="_blank">Product Page - Bundles</a> is my latest project. Not live yet so.. there\'s more', { timestamp: now, delay: 1500 })
 		.fbMessenger('message', '', '', { timestamp: now, delay: 0 })
 		.fbMessenger('showQuickReplies', [
 			'<a href="#scroll-to-work" id="work-link">Work</a>',
