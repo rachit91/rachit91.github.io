@@ -21,9 +21,9 @@ $(function() {
 		}
 		], { delay: 1500 })
 
-		.fbMessenger('message', 'user', 'I\'m only here to see your work bruh, show and tell..', { timestamp: now, delay: 3000 })
+		.fbMessenger('message', 'user', 'I\'m here to see your work bruhh, let\'s see some action!', { timestamp: now, delay: 3000 })
 		.fbMessenger('typingIndicator', { delay: 2500 })
-		.fbMessenger('message', 'bot', 'I knew you would think that. <a href="https://rachit91.github.io/bundles-proto" target="_blank">Product Page - Bundles</a> is my latest project. Not live yet so.. there\'s more', { timestamp: now, delay: 1500 })
+		.fbMessenger('message', 'bot', 'Aiighht cools. <a href="https://rachit91.github.io/bundles-proto" target="_blank">Product Page - Bundles</a> is the latest. Not live yet but.. there\'s more', { timestamp: now, delay: 1500 })
 		.fbMessenger('message', '', '', { timestamp: now, delay: 0 })
 		.fbMessenger('showQuickReplies', [
 			'<a href="#scroll-to-work" id="work-link">Work</a>',
