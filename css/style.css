@@ -369,3 +369,9 @@ div.screen-content {
 .jsm-quick-reply-option > a {
   color: #007aff !important;
 }
+
+/* fixing the spacing in the quick reply buttons*/
+.jsm-quick-replies-container {
+  display:flex !important;
+  justify-content:space-around;
+}
