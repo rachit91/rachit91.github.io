@@ -106,8 +106,46 @@
                  <b>#1</b>   
               </p>
 
-              <p class="left-align xxx-large-text">I'm working on Bundles on Sam's Club at the moment. <a href="https://www.samsclub.com/sams/qore-band-bundle-com-only/prod20612930.ip?sprodId=prod20612930&xid=plp%3Aproduct%3A1%3A1&saclp=1" target="_blank">Here</a> is the present experience. And <a href="https://rachit91.github.io/bundles-proto/" target="_blank">here</a> is what me and the team are proposing.</p>
+              <p class="left-align xxx-large-text">I'm working on Bundles on Sam's Club at the moment. <a href="https://www.samsclub.com/sams/qore-band-bundle-com-only/prod20612930.ip?sprodId=prod20612930&xid=plp%3Aproduct%3A1%3A1&saclp=1" target="_blank">Here</a> is the present experience. And <a href class="link-color drift-open-chat">here</a> is what me and the team are proposing.</p>
+              
+              <script>
+                (function() {
+                 var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
 
+                 function ready(fn) {
+                 if (document.readyState != 'loading') {
+                 fn();
+                 } else if (document.addEventListener) {
+                 document.addEventListener('DOMContentLoaded', fn);
+                 } else {
+                 document.attachEvent('onreadystatechange', function() {
+                 if (document.readyState != 'loading')
+                 fn();
+                 });
+                 }
+                 }
+
+                 function forEachElement(selector, fn) {
+                 var elements = document.querySelectorAll(selector);
+                 for (var i = 0; i < elements.length; i++)
+                 fn(elements[i], i);
+                 }
+                 function openSidebar(driftApi, event) {
+                 event.preventDefault();
+                 driftApi.sidebar.open();
+                 return false;
+                 }
+                 ready(function() {
+                 drift.on('ready', function(api) {
+                 var handleClick = openSidebar.bind(this, api)
+                 forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
+                 el.addEventListener('click', handleClick);
+                 });
+                 });
+                 });
+                })();
+              </script>
+              
               <!-- spacer -->
               <div class="small-spacer"></div>
 
