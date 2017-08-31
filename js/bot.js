@@ -47,8 +47,9 @@ $(function() {
 	// .fbMessenger('message', '', '', { timestamp: now, delay: 0 })
 
 	.fbMessenger('run');
-	
-	var DRIFT_CHAT_SELECTOR = '.drift-open-chat';
+});
+
+var DRIFT_CHAT_SELECTOR = '.drift-open-chat';
 	
 	function ready(fn) {
 		if (document.readyState != 'loading') {
@@ -82,4 +83,3 @@ $(function() {
 			});
 		});
 	});
-});
