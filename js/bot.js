@@ -25,7 +25,7 @@ $(function() {
 
 	.fbMessenger('message', 'user', 'So, how old is she?', { timestamp: now, delay: 3000 })
 	.fbMessenger('typingIndicator', { delay: 2500 })
-	.fbMessenger('message', 'bot', 'why don\'t you <a href class="drift-open-chat">ping</a> me with your guess..', { timestamp: now, delay: 1500 })
+	.fbMessenger('message', 'bot', 'why don\'t you ping me with your guess..', { timestamp: now, delay: 1500 })
 	.fbMessenger('typingIndicator', { delay: 1500 })
 	.fbMessenger('message', 'bot', 'Meanwhile, below is my work, blog and more.. let\'s connect!', { timestamp: now, delay: 1500 })
 	.fbMessenger('message', '', '', { timestamp: now, delay: 0 })
@@ -48,38 +48,3 @@ $(function() {
 
 	.fbMessenger('run');
 });
-
-var DRIFT_CHAT_SELECTOR = '.drift-open-chat';
-	
-	function ready(fn) {
-		if (document.readyState != 'loading') {
-			fn();
-		} else if (document.addEventListener) {
-		document.addEventListener('DOMContentLoaded', fn);
-		} else {
-			document.attachEvent('onreadystatechange', function() {
-				if (document.readyState != 'loading')
-					fn();
-				});
-			}
-		}
-	
-		function forEachElement(selector, fn) {
-		var elements = document.querySelectorAll(selector);
-		for (var i = 0; i < elements.length; i++)
-		fn(elements[i], i);
-	}
-	
-	function openSidebar(driftApi, event) {
-		event.preventDefault();
-		driftApi.sidebar.open();
-		return false;
-	}
-	ready(function() {
-		drift.on('ready', function(api) {
-			var handleClick = openSidebar.bind(this, api)
-			forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
-				el.addEventListener('click', handleClick);
-			});
-		});
-	});
