@@ -9,9 +9,9 @@ $(function() {
 	.fbMessenger('start', { delay: 0 })
 	.fbMessenger('typingIndicator', { delay: 1200 })
 	.fbMessenger('message', 'bot', 'When I was 6, my sister was half my age. Now, I\'m 26. How old is she?', { timestamp: now, delay: 800 })
-	.fbMessenger('message', 'user', '🤔 🤔', { timestamp: now, delay: 4500 })
+	.fbMessenger('message', 'user', '🤔 🤔', { timestamp: now, delay: 4000 })
 	.fbMessenger('typingIndicator', { delay: 2000 })
-	.fbMessenger('message', 'bot', 'Lol kidding, I\'m Rachit - UX Designer at Walmart Labs', { timestamp: now, delay: 1000 })
+	.fbMessenger('message', 'bot', 'Haha kidding! I\'m <b>Rachit</b> - UX Designer at Walmart Labs', { timestamp: now, delay: 1000 })
 	//.fbMessenger('message', 'bot', 'Rolling beans at <b>Walmart Labs</b> 😆', { timestamp: now, delay: 1200 })
 
 	.fbMessenger('showGenericTemplate', [
@@ -25,9 +25,9 @@ $(function() {
 
 	.fbMessenger('message', 'user', 'So, how old is she?', { timestamp: now, delay: 3000 })
 	.fbMessenger('typingIndicator', { delay: 2500 })
-	.fbMessenger('message', 'bot', 'haha, shoot me a message with your guess & I\'ll tell ya', { timestamp: now, delay: 1500 })
+	.fbMessenger('message', 'bot', 'why don\'t you <a class="drift-open-chat">ping</a> me with your guess..', { timestamp: now, delay: 1500 })
 	.fbMessenger('typingIndicator', { delay: 1500 })
-	.fbMessenger('message', 'bot', 'Meanwhile, below is my work, blog and more..nice to meet ya, user!', { timestamp: now, delay: 1500 })
+	.fbMessenger('message', 'bot', 'Meanwhile, below is my work, blog and more.. let\'s connect!', { timestamp: now, delay: 1500 })
 	.fbMessenger('message', '', '', { timestamp: now, delay: 0 })
 	.fbMessenger('showQuickReplies', [
 		'<a href="#scroll-to-work" id="work-link">Work</a>',
