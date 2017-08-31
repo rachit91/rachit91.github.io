@@ -14,7 +14,8 @@ body {
 
 a {
   color:#007aff;
-  cursor: pointer;
+  cursor: pointer !important;
+  pointer-events: auto;
 }
 
 .card-hover:hover {
@@ -22,12 +23,16 @@ a {
   -moz-box-shadow: 1px 1px 40px -8px rgba(186,186,186,1);
   box-shadow: 1px 1px 40px -8px rgba(186,186,186,1);
   /*box-shadow: 0 14px 14px 0 rgba(0,0,0,.05), 0 10px 5px 0 rgba(0,0,0,.22);*/
+  cursor: pointer !important;
+  pointer-events: auto;
 
 }
 
 .card-hover {
     -webkit-transition-duration: 0.8s; /* Safari */
     transition-duration: 0.8s;
+    cursor: pointer !important;
+    pointer-events: auto;
 }
 
 #logo-container {

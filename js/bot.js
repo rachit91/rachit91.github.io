@@ -25,9 +25,9 @@ $(function() {
 
 	.fbMessenger('message', 'user', 'So, how old is she?', { timestamp: now, delay: 3000 })
 	.fbMessenger('typingIndicator', { delay: 2500 })
-	.fbMessenger('message', 'bot', 'why don\'t you ping me with your guess..', { timestamp: now, delay: 1500 })
+	.fbMessenger('message', 'bot', 'bah, why don\'t you ping me with your guess..', { timestamp: now, delay: 1500 })
 	.fbMessenger('typingIndicator', { delay: 1500 })
-	.fbMessenger('message', 'bot', 'Meanwhile, below is my work, blog and more.. let\'s connect!', { timestamp: now, delay: 1500 })
+	.fbMessenger('message', 'bot', 'meanwhile, below is my work, blog and more.. let\'s connect!', { timestamp: now, delay: 1500 })
 	.fbMessenger('message', '', '', { timestamp: now, delay: 0 })
 	.fbMessenger('showQuickReplies', [
 		'<a href="#scroll-to-work" id="work-link">Work</a>',
