@@ -8,10 +8,10 @@ $(function() {
 		})
 	.fbMessenger('start', { delay: 0 })
 	.fbMessenger('typingIndicator', { delay: 1200 })
-	.fbMessenger('message', 'bot', 'When I was 6, my sister was half my age. Now, I\'m 26. How old is she?', { timestamp: now, delay: 800 })
-	.fbMessenger('message', 'user', '🤔 🤔', { timestamp: now, delay: 4000 })
-	.fbMessenger('typingIndicator', { delay: 2000 })
-	.fbMessenger('message', 'bot', 'Haha kidding! I\'m <b>Rachit</b> - UX Designer at Walmart Labs', { timestamp: now, delay: 1000 })
+	// .fbMessenger('message', 'bot', 'When I was 6, my sister was half my age. Now, I\'m 26. How old is she?', { timestamp: now, delay: 800 })
+	// .fbMessenger('message', 'user', '🤔 🤔', { timestamp: now, delay: 4000 })
+	// .fbMessenger('typingIndicator', { delay: 2000 })
+	.fbMessenger('message', 'bot', 'Hello, I\'m <b>Rachit</b> - UX Designer at Walmart Labs', { timestamp: now, delay: 1500 })
 	//.fbMessenger('message', 'bot', 'Rolling beans at <b>Walmart Labs</b> 😆', { timestamp: now, delay: 1200 })
 
 	.fbMessenger('showGenericTemplate', [
@@ -25,7 +25,7 @@ $(function() {
 
 	.fbMessenger('message', 'user', '😸 🤙', { timestamp: now, delay: 3000 })
 	.fbMessenger('typingIndicator', { delay: 2500 })
-	.fbMessenger('message', 'bot', 'Haha', { timestamp: now, delay: 1000 })
+	.fbMessenger('message', 'bot', 'haha', { timestamp: now, delay: 1500 })
 	.fbMessenger('typingIndicator', { delay: 1000 })
 	.fbMessenger('message', 'bot', 'below is my work, blog and more.. let\'s connect!', { timestamp: now, delay: 1500 })
 	.fbMessenger('message', '', '', { timestamp: now, delay: 0 })

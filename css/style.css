@@ -381,3 +381,61 @@ div.screen-content {
   display:flex !important;
   justify-content:space-around;
 }
+
+/*Adding a arrow animation on the main page*/
+.fa {
+  color: #424242;
+  text-decoration: none;
+  
+}
+
+.arrow {
+  position:absolute;
+  text-align: center;
+  margin-left: 2%;
+  bottom:36px;
+  opacity:.2;
+}
+
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  60% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  60% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
