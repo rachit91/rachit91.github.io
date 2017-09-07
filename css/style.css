@@ -392,9 +392,10 @@ div.screen-content {
 .arrow {
   position:absolute;
   text-align: center;
-  margin-left: 2%;
+  /*margin-left: 2%;*/
   bottom:36px;
-  opacity:.2;
+  opacity:.09;
+  left:49%;
 }
 
 .bounce {
