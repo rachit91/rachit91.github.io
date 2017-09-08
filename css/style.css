@@ -389,10 +389,10 @@ div.screen-content {
   
 }
 
-.arrow {
+/* .arrow {
   position:absolute;
   text-align: center;
-  /*margin-left: 2%;*/
+  margin-left: 2%;
   bottom:36px;
   opacity:.07;
   left:20%;
@@ -438,5 +438,5 @@ div.screen-content {
     -webkit-transform: translateY(-1px);
             transform: translateY(-1px);
   }
-}
+} */
 
