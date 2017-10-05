@@ -48,6 +48,11 @@ $(".moments-btn").click(function() {
     $('ul.tabs').tabs('select_tab', 'moments');
 });
 
+//On clicking the work button on projects page, change to work tab
+$(".work-btn").click(function() {
+    $('ul.tabs').tabs('select_tab', 'work');
+});
+
 //carousel width
 $('.carousel.carousel-slider').carousel({full_width: true});
 
