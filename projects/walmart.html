@@ -106,13 +106,14 @@
               <!-- Bundles project -->
               <div class="row center-align">
 
-                <div class="col s12 card-hover" style="padding:3.5% !important" onclick="window.open('https://medium.com/@rachitgupta/how-we-simplified-buying-bundles-on-sam-s-club-a-ux-case-study-9149daf66853', '_blank')">
+                <div class="col s12 card-hover drift-open-chat" style="padding:3.5% !important">
 
-                  <img src="../img/bundles.png" class="responsive-img"><br><br>
-
+                  <img src="../img/bundles.png" class="responsive-img"><br>
                   <p class="left-align large-text">
-                    <span class="xxx-large-text">1. Bundles on Sam's Club<br></span>
-                    Bundle items can be user-configurable or pre-configured. This project solves for simplifying these experiences.
+                    <span class="xxx-large-text">Bundles on Sam's Club<br></span>
+                    Bundle items can be user-configurable or pre-configured. This project solves for simplifying these experiences.<br><br>
+
+                    Going live soon.
                   </p>
                   
                 </div>
@@ -124,16 +125,20 @@
               <!-- Cart and Checkout project starts here -->
               <div class="row center-align">
 
-                <div class="col s12 card-hover" style="padding:3.5% !important">
-                  <div class="video-container">
+                <div class="col s12 card-hover drift-open-chat" style="padding:3.5% !important">
+                  <!-- <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/QtwaXLvbtHU" frameborder="0" allowfullscreen></iframe><br>
-                  </div>
+                  </div> -->
+
+                  <img src="../img/pangea-splash.png" class="responsive-img"><br>
 
                   <p class="left-align large-text">
-                    <span class="xxx-large-text">2. Cart, Checkout and Order Confirmation Pages<br></span>
-                    A 7-month long initiative to re-design these pages as a part of Sam's Club Pangea migration. Teamed up with senior designers to explore the clean visual language while incorporating specific business use cases. Here is a quick prototype showing the linking between the pages.
+                    <span class="xxx-large-text">Cart, Checkout and Order Confirmation Pages<br></span>
+                    A 10-month long initiative to re-design these pages as a part of Sam's Club Pangea migration. Teamed up with senior designers to explore the clean visual language while incorporating specific business use cases.
+
                     <br><br>
-                    This work is still under NDA.
+
+                    This work is under NDA.
                   </p>
                   
                 </div>
@@ -154,8 +159,8 @@
                   </a><br><br>
 
                   <p class="left-align large-text">
-                    <span class="xxx-large-text">Refer a friend to Sam's Club<br></span>
-                    Led the design for 'refer a friend' experience. This project involved bringing an externally existing page into Sam's 'Your account' ecosystem.
+                    <span class="xxx-large-text">Refer a friend and earn<br></span>
+                    This project involved bringing an externally existing page into Sam's ecosystem
                   </p>
                 </div>
 
@@ -166,7 +171,7 @@
 
                   <p class="left-align large-text">
                     <span class="xxx-large-text">Promotions on Sam's<br></span>
-                    Leading the designs to showcase multiple promotions on a single item throughout the purchase journey.
+                    Lead the designs to showcase multiple promotions on a single item throughout the purchase journey
                   </p>
                   
                 </div>
@@ -284,6 +289,45 @@
       </div>
     </div>
   </footer> -->
+
+  <!-- place this script tag after the Drift embed tag -->
+    <script>
+      (function() {
+       var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
+
+       function ready(fn) {
+       if (document.readyState != 'loading') {
+       fn();
+       } else if (document.addEventListener) {
+       document.addEventListener('DOMContentLoaded', fn);
+       } else {
+       document.attachEvent('onreadystatechange', function() {
+       if (document.readyState != 'loading')
+       fn();
+       });
+       }
+       }
+
+       function forEachElement(selector, fn) {
+       var elements = document.querySelectorAll(selector);
+       for (var i = 0; i < elements.length; i++)
+       fn(elements[i], i);
+       }
+       function openSidebar(driftApi, event) {
+       event.preventDefault();
+       driftApi.sidebar.open();
+       return false;
+       }
+       ready(function() {
+       drift.on('ready', function(api) {
+       var handleClick = openSidebar.bind(this, api)
+       forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
+       el.addEventListener('click', handleClick);
+       });
+       });
+       });
+      })();
+    </script>
 
 
   <!--  Scripts-->
