@@ -12,6 +12,10 @@ body {
   color: #007aff !important;
 }
 
+blockquote {
+  border-left:5px solid #007aff;
+}
+
 a {
   color:#007aff;
   cursor: pointer !important;
