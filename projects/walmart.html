@@ -108,15 +108,24 @@
               <!-- Bundles project -->
               <div class="row center-align">
 
-                <div class="col s12 card-hover drift-open-chat" style="padding:3.5% !important">
+                <div class="col s12 card-hover" style="padding:3.5% !important" onclick="showpsswrd()">
 
                   <img src="../img/bundles.png" class="responsive-img"><br>
                   <p class="left-align large-text">
                     <span class="xxx-large-text">Bundles on Sam's Club<br></span>
-                    Bundle items can be user-configurable or pre-configured. This project solves for simplifying these experiences.<br><br>
-
-                    Going live soon.
+                    Bundle items can be user-configurable or pre-configured. This project solves for simplifying these experiences.
                   </p>
+
+                  <form class="col s12 left-align psswrd">
+                      <div class="input-field col s12">
+                        <input id="password" type="password"
+                        data-project="https://medium.com/@rachitgupta/how-we-simplified-buying-bundles-on-sam-s-club-a-ux-case-study-9149daf66853" 
+                        onkeypress="validatepsswrd(event);">
+                        <label for="password">Password</label>
+                      </div>
+
+                      <a class="link-color drift-open-chat access-link sm-text">Get access</a>
+                  </form>
                   
                 </div>
               </div>

@@ -76,3 +76,41 @@ function hoverVideo(e) {
 function hideVideo(e) {
     $(this).get(0).pause(); 
 }
+
+
+//show password field
+var showpsswrd = function() {
+  $(".psswrd").show();
+  // window.location.href="#psswrd-scroll";
+};
+
+// validate password
+var validatepsswrd = function(event) {
+
+  if (event.keyCode == 13) {
+
+    event.preventDefault();
+
+    var input = $("#password");
+    var txt = input.val();
+    var project = input.data("project");
+
+    if(txt == "access2017") {
+      input.addClass("valid");
+      window.open(project, '_blank');
+      
+      $(".psswrd").hide();
+      $(".access-link").hide();
+
+      input.removeClass("invalid");
+    
+    } else if(!(txt == "access2017") && event.keyCode == 13) {
+      
+      $(".access-link").show();
+      input.addClass("invalid");
+
+      $("input[type=password] + label.active").css("color", "#f44336 !important");
+
+    }
+  }
+};
