@@ -91,7 +91,14 @@ var validatepsswrd = function(event) {
 
     event.preventDefault();
 
-    var input = $("#password");
+    var type = $(event.currentTarget).data("type");
+
+    if (type == "bundles") {
+      var input = $("#password");
+    } else if (type == "promotions") {
+      var input = $("#password-promo");
+    }
+
     var txt = input.val();
     var project = input.data("project");
 
