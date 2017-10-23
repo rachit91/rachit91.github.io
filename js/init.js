@@ -97,6 +97,8 @@ var validatepsswrd = function(event) {
       var input = $("#password");
     } else if (type == "promotions") {
       var input = $("#password-promo");
+    } else if (type == "pangea") {
+      var input = $("#password-pangea");
     }
 
     var txt = input.val();
