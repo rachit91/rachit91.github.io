@@ -22,6 +22,12 @@ a {
   pointer-events: auto;
 }
 
+.about-img-shadow {
+  box-shadow: 0px 1px 30px rgba(121, 107, 93, 0.35);
+  border-radius: 8px;
+  padding: 0px !important;
+}
+
 .card-hover:hover {
   -webkit-box-shadow: 1px 1px 40px -8px rgba(186,186,186,1);
   -moz-box-shadow: 1px 1px 40px -8px rgba(186,186,186,1);
@@ -278,10 +284,15 @@ h5  {
 
 div.screen-content {
   position: absolute;
-  width: 285px;
+/*  width: 285px;
   height: 508px;
   top: 12.3%;
-  left: 9%;
+  left: 9%;*/
+
+  width: 286px;
+  height: 505px;
+  top: 11%;
+  left: 8%;
 }
 
 /*Hiding these elements of the JQuery bot*/
