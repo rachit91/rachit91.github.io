@@ -11,7 +11,7 @@ $(function() {
 	// .fbMessenger('message', 'bot', 'When I was 6, my sister was half my age. Now, I\'m 26. How old is she?', { timestamp: now, delay: 800 })
 	// .fbMessenger('message', 'user', '🤔 🤔', { timestamp: now, delay: 4000 })
 	// .fbMessenger('typingIndicator', { delay: 2000 })
-	.fbMessenger('message', 'bot', 'Hello, I\'m <b>Rachit</b> - Product Designer at Walmart Labs', { timestamp: now, delay: 1500 })
+	.fbMessenger('message', 'bot', 'Hello, I\'m <b>Rachit</b> - Designer at Walmart Labs', { timestamp: now, delay: 1500 })
 	//.fbMessenger('message', 'bot', 'Rolling beans at <b>Walmart Labs</b> 😆', { timestamp: now, delay: 1200 })
 
 	.fbMessenger('showGenericTemplate', [
