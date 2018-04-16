@@ -23,7 +23,7 @@ $(function() {
 	}
 	], { delay: 1500 })
 
-	.fbMessenger('message', 'user', '😸 🤙', { timestamp: now, delay: 3000 })
+	.fbMessenger('message', 'user', '🤙', { timestamp: now, delay: 3000 })
 	.fbMessenger('typingIndicator', { delay: 2500 })
 	.fbMessenger('message', 'bot', 'haha', { timestamp: now, delay: 1500 })
 	.fbMessenger('typingIndicator', { delay: 1000 })
