@@ -42,7 +42,7 @@ $(function() {
 	.fbMessenger('showQuickReplies', [
 		'<a href="#scroll-to-work" id="work-link">Recent work</a>',
 		'<a href="https://medium.com/@rachitgupta" target="_blank">Ignored blog</a>',
-		'<a href="www.linkedin.com/in/rachit91" target="_blank">LinkedIn</a>'
+		'<a href="https://www.linkedin.com/in/rachit91/" target="_blank">LinkedIn</a>'
 		
 	], { timestamp: now, delay: 1500 })
 	// .fbMessenger('scrollQuickReplies', 3, { delay: 2000 })
