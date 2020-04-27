@@ -43,7 +43,27 @@ a {
     transition-duration: 0.8s;
     cursor: pointer !important;
     pointer-events: auto;
+    border-radius: 16px;
 }
+
+.card-hover-hero:hover {
+   -webkit-box-shadow: 1px 1px 40px -8px rgba(80,80,80,1);
+  -moz-box-shadow: 1px 1px 40px -8px rgba(186,186,186,1);
+  box-shadow: 1px 1px 40px -8px rgba(80,80,80,1);
+  /*box-shadow: 0 14px 14px 0 rgba(0,0,0,.05), 0 10px 5px 0 rgba(0,0,0,.22);*/
+  cursor: pointer !important;
+  pointer-events: auto;
+}
+
+.card-hover-hero {
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    cursor: pointer !important;
+    pointer-events: auto;
+    border-radius: 16px;
+}
+
+
 
 #logo-container {
 	top:18%;
@@ -88,6 +108,7 @@ nav ul li a {
 h5  {
   margin-bottom: 0px;
   font-weight: 500;
+  font-family: 'Google Sans', 'Roboto', 'sans-serif';
 }
 
 .underline {
@@ -157,21 +178,25 @@ h5  {
 /*MEDIA QUERIES*/
 @media only screen and (max-width : 768px) {
     h1 {
+      font-family:"Google Sans", "Roboto", sans-serif;
       font-size: 24px;
       font-weight: 500;
     }
     
     h3 {
+      font-family:"Google Sans", "Roboto", sans-serif;
       font-size: 20px;
       font-weight: 500;
     }
 
     h4 {
+      font-family:"Google Sans", "Roboto", sans-serif;
       font-size: 19px;
       font-weight: 500;
     }
 
     h5 {
+      font-family:"Google Sans", "Roboto", sans-serif;
       font-size: 16px;
     }
 
@@ -263,7 +288,7 @@ h5  {
 /* HOME-PAGE STYLES */
 .bg {
   height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #fafafa;
   display: flex;
   align-items: center;
 }
