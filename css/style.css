@@ -213,6 +213,8 @@ h5  {
       display: none !important;
     }
 
+    .screen
+
     .sm-text {
       font-size: 12px;
     }
@@ -416,9 +418,9 @@ div.screen-content {
   font-size: 1.2em !important;
 }
 
-.jsm-quick-reply-option > a {
+/*.jsm-quick-reply-option > a {
   color: #546de5 !important;
-}
+}*/
 
 /* fixing the spacing in the quick reply buttons*/
 .jsm-quick-replies-container {
